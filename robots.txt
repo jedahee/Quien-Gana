@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 # Sitemap (regenerado con: node scripts/build-sitemap.mjs)
-Sitemap: https://www.quiengana.es/sitemap.xml
+Sitemap: https://jedahee.github.io/Quien-Gana/sitemap.xml

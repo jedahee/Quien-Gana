@@ -71,28 +71,27 @@ await writeFile(path.join(WORKTREE, '404.html'),
 <title>404 — ¿Quién Gana?</title><h1>Página no encontrada</h1>
 <p>Redirigiendo a la portada…</p><script>location.replace('./')</script>`);
 const staged = readdirSync(WORKTREE).length;
-const sizes = (p) => {
-  let n = 0;
-  const walk = (d) => { for (const e of readdirSync(d)) { const f = path.join(d, e); n += statSync(f).isDirectory() ? walk(f) : statSync(f).size; } return n; };
-  return walk(p);
-};
-console.log(`  ${staged} elementos, ${(sizes(WORKTREE) / 1024 / 1024).toFixed(2)} MiB`);
+const sizeMiB = Number(execSync(`du -sk ${WORKTREE}`, { stdio: 'pipe' }).toString().trim().split(/\s+/)[0]) / 1024;
+console.log(`  ${staged} elementos, ${sizeMiB.toFixed(2)} MiB`);
 
 if (DRY) {
   console.log('\n\x1b[33m[Dry-run] staging listo en ' + WORKTREE + '. Nada se publicó.\x1b[0m');
   process.exit(0);
 }
 
-/* ---- 3) Worktree en la rama gh-pages ---- */
-log('git', 'rama gh-pages (worktree)…');
-try { shQuiet(`git worktree add --detach ${WORKTREE} --orphan gh-pages`); }
-catch { shQuiet('git worktree prune'); shQuiet(`git worktree add --detach ${WORKTREE} --orphan gh-pages`); }
+/* ---- 3) Repo temporal → rama gh-pages ---- */
+log('git', 'creando rama gh-pages con el contenido público…');
+const remote = shQuiet('git remote get-url origin');
+await rm(path.join(WORKTREE, '.git'), { recursive: true, force: true });
+await mkdir(path.join(WORKTREE, '.git'), { recursive: true });
 
-const GIT = `-C ${WORKTREE}`;
-sh(`git ${GIT} add -A`);
-sh(`git ${GIT} -c user.name='deploy' -c user.email='deploy@localhost' commit --allow-empty -m "Deploy ${new Date().toISOString()} (${SITE_URL})"`);
-sh(`git ${GIT} branch -M gh-pages`);
-sh(`git ${GIT} push --force origin gh-pages`);
-shQuiet(`git worktree prune`);
+const gitEnv = { ...process.env, GIT_TERMINAL_PROMPT: '0' };
+const g = (cmd) => execSync(cmd, { cwd: WORKTREE, env: gitEnv, stdio: 'inherit' });
+g('git init -q -b gh-pages');
+g(`git remote add origin ${remote}`);
+g('git add -A');
+g(`git -c user.name='deploy' -c user.email='deploy@localhost' commit --allow-empty -m "Deploy ${new Date().toISOString()} (${SITE_URL})"`);
+g('git push --force origin gh-pages');
+await rm(WORKTREE, { recursive: true, force: true });
 
 log('Hecho', `publicado en gh-pages → ${SITE_URL}`);
