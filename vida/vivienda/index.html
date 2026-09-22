@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vivienda — precios de compra y alquiler | ¿Quién Gana?</title>
+<meta name="description" content="Vivienda en España: índice oficial de precios (Eurostat), inflación del alquiler mes a mes y niveles reales en €/m². Tendencia y nivel explicados por separado, sin trampas estadísticas.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/vida/vivienda/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vivienda — precios de compra y alquiler | ¿Quién Gana?">
+<meta name="twitter:description" content="Vivienda en España: índice oficial de precios (Eurostat), inflación del alquiler mes a mes y niveles reales en €/m². Tendencia y nivel explicados por separado, sin trampas estadísticas.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Vida","item":"https://jedahee.github.io/Quien-Gana/vida/"},
+{"@type":"ListItem","position":3,"name":"Vivienda","item":"https://jedahee.github.io/Quien-Gana/vida/vivienda/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../../"><img src="../../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../../">Inicio</a></li>
+      <li><a href="../../dinero/">Dinero</a></li>
+      <li><a href="../../vida/" aria-current="page">Vida</a></li>
+      <li><a href="../../guerra/">Guerra</a></li>
+      <li><a href="../../democracia/">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Miga de pan">
+      <ol><li><a href="../../">Inicio</a></li><li><a href="../../vida/">Vida</a></li><li aria-current="page">Vivienda</li></ol>
+    </nav>
+
+    <section class="page-hero reveal">
+      <p class="kicker">Indicador · 🏠 Vivienda</p>
+      <h1>La vivienda, sin titulares engañosos</h1>
+      <p class="lead">Detrás de cada gráfico hay proyectos de vida: mudanzas pospuestas, hijos esperando un piso estable, sueldos que corren detrás de unos precios que no esperan. Aquí están los datos — y qué significan para tu bolsillo.</p>
+    </section>
+
+    <section class="reveal">
+      <div class="stat-row">
+        <div>
+          <div class="stat-big"><span data-animate-to="14.7" data-decimals="2">0</span><span class="stat-unit">€/m²</span></div>
+          <p class="stat-period">Alquiler medio ofertado · cierre de 2025 (+8,5% interanual) — Idealista, portal inmobiliario</p>
+        </div>
+        <div>
+          <div class="stat-big"><span data-animate-to="2605">0</span><span class="stat-unit">€/m²</span></div>
+          <p class="stat-period">Venta de vivienda usada · nov. 2025 — Idealista, portal inmobiliario</p>
+        </div>
+      </div>
+      <small class="counter-note">Los niveles en €/m² proceden de portales inmobiliarios (oferta publicada). El contraste oficial está en el Observatorio HabitMITma; véase metodología.</small>
+    </section>
+
+    <section class="reveal" id="indices">
+      <h2>Tendencia oficial: cuánto se ha disparado la compra</h2>
+      <div class="duo-impact" id="hpi-traductor">
+        <span class="duo-impact-label">🧮 Traducido a tu vida:</span>
+        <span class="duo-impact-num" id="hpi-extra-eur">—</span>
+        <span id="hpi-frase" style="font-weight:700"></span>
+        <small>Ejemplo calculado aplicando el índice oficial de Eurostat a un piso de 100.000 € en 2015. No es un precio real de mercado: es la escala del encarecimiento que muestra la serie oficial.</small>
+      </div>
+      <div class="chart-wrap">
+        <p class="chart-title">Precio de la vivienda comparado con 2015 (Eurostat prc_hpi_q)</p>
+        <p class="chart-sub"><strong>Cómo leerlo:</strong> el índice pone el precio medio de 2015 como «100». Si el gráfico marca 194, significa que la vivienda cuesta <strong>un 94 % más</strong> que entonces — no son euros, es «veces» sobre 2015. Medias anuales para leerlo mejor; la serie trimestral completa está en la tabla. Pasa el ratón por los puntos.</p>
+        <div id="chart-hpi"></div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Y el alquiler, ¿cuánto sube?</h2>
+      <div class="chart-wrap">
+        <p class="chart-title">Inflación del alquiler (variación anual, %) — IPC rubro «Alquiler real»</p>
+        <p class="chart-sub">Eurostat prc_hicp_manr / INE. Gráfico con medias anuales; serie mensual completa en la tabla. Pasa el ratón por los puntos.</p>
+        <div id="chart-alq"></div>
+        <p id="alq-frase" style="font-weight:700;color:var(--bad);margin-top:.4rem"></p>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Índice ≠ nivel: la diferencia que importa</h2>
+      <p style="max-width:48rem;color:var(--muted)">
+        Un <strong>índice</strong> mide tendencias (cuánto ha subido algo respecto a un año base) pero no dice cuánto cuesta.
+        Un <strong>nivel</strong> dice el precio real (€/m²) pero depende de la muestra que lo publique.
+        Por eso separamos ambos: la tendencia viene de Eurostat/INE (serie oficial completa) y el nivel, de portales
+        inmobiliarios claramente etiquetados como tales. Nunca mezclamos las dos cosas en el mismo titular.
+      </p>
+    </section>
+
+    <section class="reveal source-box">
+      <strong>Fuentes</strong>
+      <dl>
+        <dt>Tendencia venta:</dt><dd>Eurostat prc_hpi_q (<a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hpi_q/default/table" rel="noopener" target="_blank">descarga directa</a>).</dd>
+        <dt>Tendencia alquiler:</dt><dd>Eurostat prc_hicp_manr, rubro RENT (<a href="https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table" rel="noopener" target="_blank">descarga directa</a>).</dd>
+        <dt>Nivel alquiler:</dt><dd><a href="https://es.euronews.com/2026/01/02/el-precio-del-alquiler-cierra-2025-con-maximos-historicos-en-espana" rel="noopener" target="_blank">Idealista vía Euronews (4T-2025)</a>; <a href="https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-precio-medio-alquiler-espana-cerro-2025-subida-167-pisoscom-20260113110238.html" rel="noopener" target="_blank">pisos.com (dic-2025)</a>.</dd>
+        <dt>Nivel venta:</dt><dd><a href="https://www.elperiodico.com/es/economia/20251225/acceso-vivienda-alquiler-peor-2025-125120919" rel="noopener" target="_blank">Idealista vía El Periódico (nov-2025)</a>.</dd>
+        <dt>Contraste oficial:</dt><dd><a href="https://habitatweb.mitma.gob.es/observatorio-habitat" rel="noopener" target="_blank">Observatorio HabitMITma</a> (importación manual pendiente).</dd>
+      </dl>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../../dinero/">Dinero</a></li>
+        <li><a href="../../vida/">Vida</a></li>
+        <li><a href="../../guerra/">Guerra</a></li>
+        <li><a href="../../democracia/">Democracia</a></li>
+        <li><a href="../../verificador/">Verificador</a></li>
+        <li><a href="../../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../../metodologia/">Metodología</a></li>
+        <li><a href="../../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../../assets/js/main.js?v=37f78c9850" type="module"></script>
+<script type="module">
+import { QG } from '../../assets/js/data.js';
+import { renderLineChart } from '../../assets/js/charts.js';
+
+const fmt0 = (v) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 }).format(v);
+const fmt1 = (v) => new Intl.NumberFormat('es-ES', { maximumFractionDigits: 1 }).format(v);
+
+const hpi = await QG.loadJSON(QG.dataUrl('hpi-vivienda.json')).catch(() => null);
+if (hpi?.observaciones?.length) {
+  renderLineChart(document.getElementById('chart-hpi'), {
+    points: hpi.observaciones.map(o => ({ x: o.periodo.replace(/^(\d{4})Q(\d)$/, '$1·T$2'), y: o.valor })),
+    unit: 'índice (2015 = 100)',
+    title: 'Precio de la vivienda comparado con 2015'
+  });
+
+  // Traductor del índice a euros y a vida real
+  const idxLast = hpi.observaciones.at(-1).valor;
+  const ejemploHoy = 100000 * idxLast / 100;
+  const extra = Math.round(ejemploHoy - 100000);
+  document.getElementById('hpi-extra-eur').textContent = `+${fmt0(extra)} €`;
+  let frase = `Es lo que cuesta HOY comprar el mismo piso que en 2015 valía 100.000 €: ahora son ≈ ${fmt0(ejemploHoy)} €. El índice oficial marca ${fmt1(idxLast)} sobre 100`;
+  try {
+    const ref = await QG.loadJSON(QG.dataUrl('referencias-equivalencias.json'));
+    const sm = ref?.valores?.salario_medio_anual?.valor;
+    if (sm) frase += ` — ese sobrecoste equivale a ${fmt1(extra / sm)} salarios medios anuales enteros`;
+  } catch (_) {}
+  document.getElementById('hpi-frase').textContent = frase + '.';
+}
+
+const alq = await QG.loadJSON(QG.dataUrl('alquiler-inflacion.json')).catch(() => null);
+if (alq?.observaciones?.length) {
+  renderLineChart(document.getElementById('chart-alq'), {
+    points: alq.observaciones.map(o => ({ x: o.periodo.replace(/^(\d{4})M(\d{2})$/, '$1/$2'), y: o.valor })),
+    unit: '%',
+    title: 'Variación anual del precio del alquiler'
+  });
+
+  // Racha de subidas: media anual año tras año, contando hacia atrás
+  const porAnio = new Map();
+  for (const o of alq.observaciones) {
+    const anio = String(o.periodo).slice(0, 4);
+    if (!porAnio.has(anio)) porAnio.set(anio, []);
+    porAnio.get(anio).push(o.valor);
+  }
+  const medias = [...porAnio.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([anio, arr]) => ({ anio, media: arr.reduce((s, v) => s + v, 0) / arr.length }));
+  let racha = 0;
+  for (let i = medias.length - 1; i > 0 && medias[i].media > medias[i - 1].media; i--) racha++;
+  if (racha >= 2) {
+    document.getElementById('alq-frase').textContent =
+      `El alquiler encadena ${racha} años seguidos subiendo de media. Cada año que se retrasa tu mudanza o tu compra, la puerta sube otro peldaño.`;
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "id": "referencias-equivalencias",
+  "titulo": "Referencias para equivalencias de gasto",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "global",
+  "definicion": "Valores de referencia usados para traducir grandes cifras de gasto público en unidades comprensibles (viviendas, salarios). Cada equivalencia muestra su fórmula y fuente en la propia página.",
+  "metodologia": "Equivalencia = gasto total / valor de referencia. Se usa el salario medio bruto anual de la EAES 2024 (29.540,26 €, INE) como proxy de 'un salario medio' y el SMI 2025 en 14 pagas como referencia mínima. Para viviendas: precio medio de venta × superficie media supuesta (90 m²).",
+  "fuente": {
+    "nombre": "INE (EAES), Ministerio de Trabajo (SMI), Idealista (portal, etiquetado)",
+    "url": "/metodologia/"
+  },
+  "actualizado": "2026-08-23",
+  "valores": {
+    "salario_medio_anual": { "valor": 29540.26, "periodo": "EAES 2024", "fuenteUrl": "https://www.angelmartinez.es/cuadros-de-los-salarios-en-espana-segun-encuesta-anual-de-estructura-salarial-eaes-anos-2023-y-2024" },
+    "salario_minimo_anual_14p": { "valor": 16576, "periodo": "SMI 2025 (1.184 €/mes × 14)", "fuenteUrl": "https://trabajo.gob.es/es/salario-minimo-interprofesional" },
+    "precio_vivienda_media": { "valor": 234450, "nota": "2.605 €/m² × 90 m² (Idealista nov. 2025 + supuesto propio)" }
+  },
+  "observaciones": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "israel-material",
+  "titulo": "Relaciones militares España–Israel: cifras separadas por categoría",
+  "unidad": "M€ / licencias",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "guerra",
+  "definicion": "Cifras de comercio exterior de material de defensa con Israel, separadas por tipo (exportaciones ejecutadas, licencias denegadas, contratos adjudicados). No se suman entre sí: cada categoría tiene una definición y fuente propias.",
+  "metodologia": "Exportaciones y licencias: informes oficiales de la Secretaría de Estado de Comercio presentados en el Congreso (Jimddu) y respuestas del Gobierno. Contratos adjudicados a empresas israelíes: investigación del Centre Delàs (fuente no gubernamental, etiquetada). El real decreto de septiembre de 2025 suspendió la compraventa de armamento con Israel.",
+  "fuente": {
+    "nombre": "Secretaría de Estado de Comercio (informes Jimddu al Congreso); Centre Delàs (contratos)",
+    "url": "https://comercio.gob.es/ImportacionExportacion/Regimenes/Paginas/materialDefensa.aspx"
+  },
+  "referencias": [
+    { "label": "219 licencias denegadas desde el 7-O-2023 hasta enero de 2026 (declaración oficial)", "url": "https://www.europapress.es/seguridad-y-defensa/noticia-espana-denegado-219-licencias-exportacion-importacion-material-defensa-israel-octubre-2023-20260304112614.html" },
+    { "label": "Exportaciones 2024 a Israel: 1,45 M€ (componentes para terceros países)", "url": "https://www.infodefensa.com/texto-diario/mostrar/5794430/espana-denegado-anos-200-licencias-exportacion-e-importacion-material-defensa-israel" },
+    { "label": "Ventas autorizadas 1S2023 a Israel: 44 M€; exportaciones totales España 2023: 3.764 M€", "url": "https://www.publico.es/politica/gobierno-autorizo-27-envios-material-defensa-israel-meses-previos-genocidio.html" },
+    { "label": "46 contratos a industrias israelíes por 1.044 M€ desde 7-O-2023 (Centre Delàs, no oficial)", "url": "https://kaosenlared.net/el-gobierno-espanol-ha-adjudicado-46-contratos-a-industrias-militares-israelies-por-valor-de-1-044-millones-de-e-desde-el-7-de-octubre-de-2023/" }
+  ],
+  "actualizado": "2026-08-23",
+  "categorias": [
+    {
+      "nombre": "Exportaciones ejecutadas a Israel (2024)",
+      "valor": "1,45 M€",
+      "nota": "Todo el montante fue componentes destinados a terceros países (Filipinas, EE.UU.). Sin exportaciones definitivas con destino final Israel.",
+      "tipoFuente": "oficial"
+    },
+    {
+      "nombre": "Licencias denegadas (7-O-2023 → ene-2026)",
+      "valor": "219",
+      "nota": "Incluye exportación e importación de material de defensa y doble uso. 64 exportación + 4 importación antes del RD de sep-2025; 151 después. 21 licencias vigentes en proceso de revocación.",
+      "tipoFuente": "oficial"
+    },
+    {
+      "nombre": "Ventas autorizadas 1S-2023 (pre-guerra)",
+      "valor": "44 M€",
+      "nota": "Informe oficial al Congreso sobre operaciones autorizadas en el primer semestre de 2023.",
+      "tipoFuente": "oficial"
+    },
+    {
+      "nombre": "Contratos adjudicados a empresas israelíes desde 7-O-2023",
+      "valor": "1.044 M€ (46 contratos)",
+      "nota": "FUENTE NO GUBERNAMENTAL: Centre Delàs. Incluye adquisiciones del Estado español a filiales y proveedores israelíes. No equivale a 'exportaciones a Israel'.",
+      "tipoFuente": "no-oficial"
+    }
+  ],
+  "observaciones": []
+}

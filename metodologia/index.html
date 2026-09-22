@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Metodología | ¿Quién Gana?</title>
+<meta name="description" content="Cómo trabajamos: fuente original siempre visible, separación entre niveles y tendencias, etiquetado de fuentes no oficiales, contadores con nota de método y estados honestos de datos pendientes.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/metodologia/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Metodología | ¿Quién Gana?">
+<meta name="twitter:description" content="Cómo trabajamos: fuente original siempre visible, separación entre niveles y tendencias, etiquetado de fuentes no oficiales, contadores con nota de método y estados honestos de datos pendientes.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Metodología","item":"https://jedahee.github.io/Quien-Gana/metodologia/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../"><img src="../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../">Inicio</a></li>
+      <li><a href="../dinero/">Dinero</a></li>
+      <li><a href="../vida/">Vida</a></li>
+      <li><a href="../guerra/">Guerra</a></li>
+      <li><a href="../democracia/">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <section class="page-hero reveal">
+      <p class="kicker">Transparencia · 🧭 Metodología</p>
+      <h1>Cómo trabajamos los datos</h1>
+    </section>
+
+    <section class="reveal">
+      <h2>Siete principios</h2>
+      <ol style="max-width:50rem">
+        <li><strong>Fuente original siempre.</strong> Cada dato importante lleva enlace a su fuente primaria (INE, Eurostat, IGAE, Congreso…). No tienes que confiar en nosotros: puedes comprobarlo.</li>
+        <li><strong>Niveles ≠ tendencias.</strong> Un índice (2015=100) mide cuánto ha subido algo; un nivel (€/m²) dice cuánto cuesta. Nunca los mezclamos en el mismo titular ni en el mismo gráfico.</li>
+        <li><strong>Etiquetado de naturaleza.</strong> Datos de portales inmobiliarios, think tanks no gubernamentales o prensa se etiquetan como tales y se separan de las estadísticas oficiales. Nunca se suman cifras de distinta definición (ver <a href="../guerra/israel/">Israel</a>, <a href="../guerra/ucrania/">Ucrania</a>).</li>
+        <li><strong>Ejecutado ≠ anunciado ≠ autorizado.</strong> Una liquidación (gasto real), un anuncio (compromiso político a plazos) y un crédito presupuestado (autorización) son cosas distintas. Decimos siempre cuál usamos.</li>
+        <li><strong>Contadores honestos.</strong> Los contadores tipo «€ por segundo» interpolan una cifra anual oficial; llevan nota permanente de su método y nunca se presentan como datos en tiempo real.</li>
+        <li><strong>Estados vacíos honestos.</strong> Si un dato está pendiente de verificación, mostramos «pendiente de verificación» — no rellenamos huecos con estimaciones ni inventamos series.</li>
+        <li><strong>Actualización automática donde existe API.</strong> INE Tempus3 y Eurostat se descargan cada semana mediante scripts reproducibles (<code>npm run update-data</code>). Lo que no tiene API se importa manualmente citando el documento exacto y su fecha.</li>
+      </ol>
+    </section>
+
+    <section class="reveal">
+      <h2>Las equivalencias, documentadas</h2>
+      <p style="max-width:50rem;color:var(--muted)">Cuando traducimos millones a «viviendas» o «salarios», mostramos la fórmula junto al resultado:</p>
+      <div class="source-box" style="margin-top:.6rem">
+        <dl>
+          <dt>Vivienda media:</dt><dd>2.605 €/m² × 90 m² ≈ 234.450 € (Idealista nov-2025 + supuesto propio de superficie conservador frente a las ~96 m² estimadas por Fomento con datos de fianzas).</dd>
+          <dt>Salario medio:</dt><dd>29.540,26 € bruto/año (EAES 2024, INE).</dd>
+          <dt>SMI 2025:</dt><dd>1.184 €/mes × 14 pagas = 16.576 €/año (Ministerio de Trabajo).</dd>
+          <dt>Fórmula:</dt><dd>número de unidades = gasto total / valor de referencia.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="reveal pending-box">
+      <strong>Limitaciones actuales declaradas</strong>
+      <ul style="color:var(--muted);margin:.4rem 0 0">
+        <li>Años sin verificación individual en la serie histórica de Defensa (2017, 2019, 2023) aparecen como huecos hasta contrastarlos con liquidaciones IGAE.</li>
+        <li>Niveles de vivienda dependen de portales hasta completar la importación manual del Observatorio HabitMITma.</li>
+        <li>El pipeline completo de PGE (CSV oficial de presupuesto.gob.es) está pendiente: ese portal no es accesible de forma estable desde este entorno.</li>
+        <li>Veredicto sobre inmigración y criminalidad: pendiente de procesar series CGPJ.</li>
+      </ul>
+    </section>
+
+    <section class="reveal source-box">
+      <strong>Más detalle técnico</strong>
+      <p style="margin:.4rem 0 0">Catálogo completo de conjuntos de datos en <a href="../fuentes/">Fuentes</a>; arquitectura técnica en el repositorio (<code>ARCHITECTURE.md</code>) y catálogo de orígenes en <code>DATA_SOURCES.md</code>.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../dinero/">Dinero</a></li>
+        <li><a href="../vida/">Vida</a></li>
+        <li><a href="../guerra/">Guerra</a></li>
+        <li><a href="../democracia/">Democracia</a></li>
+        <li><a href="../verificador/">Verificador</a></li>
+        <li><a href="../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../metodologia/">Metodología</a></li>
+        <li><a href="../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../assets/js/main.js?v=37f78c9850" type="module"></script>
+</body>
+</html>

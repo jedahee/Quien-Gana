@@ -1,0 +1,291 @@
+{
+  "generado": "2026-09-22T21:20:35.185Z",
+  "entries": [
+    {
+      "url": "/",
+      "titulo": "¿Quién Gana? — ¿Y quién acaba pagando?",
+      "tipo": "página",
+      "texto": "inicio portada datos públicos España dinero poder",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 1,
+      "keywords": "¿quién gana? — ¿y quién acaba pagando? inicio portada datos públicos españa dinero poder"
+    },
+    {
+      "url": "/dinero/",
+      "titulo": "Dinero — ¿Dónde va nuestro dinero?",
+      "tipo": "sección",
+      "texto": "presupuestos defensa empresas deuda hacienda contratos subvenciones",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "dinero — ¿dónde va nuestro dinero? presupuestos defensa empresas deuda hacienda contratos subvenciones"
+    },
+    {
+      "url": "/dinero/gasto-militar/",
+      "titulo": "Gasto militar de España",
+      "tipo": "indicador",
+      "texto": "defensa ejército rearme presupuesto sección otan pib armamento",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "gasto militar de españa defensa ejército rearme presupuesto sección otan pib armamento"
+    },
+    {
+      "url": "/dinero/presupuesto/",
+      "titulo": "Presupuesto: ¿en qué se gasta?",
+      "tipo": "indicador",
+      "texto": "pge pensiones deuda intereses sanidad educación transferencias comunidades",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "keywords": "presupuesto: ¿en qué se gasta? pge pensiones deuda intereses sanidad educación transferencias comunidades"
+    },
+    {
+      "url": "/dinero/contratos-publicos/",
+      "titulo": "Contratación pública",
+      "tipo": "indicador",
+      "texto": "placsp licitaciones adjudicaciones empresas proveedores estado",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.8,
+      "keywords": "contratación pública placsp licitaciones adjudicaciones empresas proveedores estado"
+    },
+    {
+      "url": "/dinero/grandes-deudores/",
+      "titulo": "Grandes deudores con Hacienda",
+      "tipo": "indicador",
+      "texto": "atc agencia tributaria morosidad listado deudas",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.7,
+      "keywords": "grandes deudores con hacienda atc agencia tributaria morosidad listado deudas"
+    },
+    {
+      "url": "/vida/",
+      "titulo": "Vida — ¿Por qué cuesta más vivir?",
+      "tipo": "sección",
+      "texto": "vivienda alquiler salarios empleo coste vida inflación desigualdad",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "vida — ¿por qué cuesta más vivir? vivienda alquiler salarios empleo coste vida inflación desigualdad"
+    },
+    {
+      "url": "/vida/vivienda/",
+      "titulo": "Vivienda: precios y alquiler",
+      "tipo": "indicador",
+      "texto": "alquiler compra precio metro cuadrado hipoteca vivienda pública turístico",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "vivienda: precios y alquiler alquiler compra precio metro cuadrado hipoteca vivienda pública turístico"
+    },
+    {
+      "url": "/vida/salarios/",
+      "titulo": "Salarios y empleo",
+      "tipo": "indicador",
+      "texto": "salario medio mediano smi paro epa precariedad temporalidad brecha",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.8,
+      "keywords": "salarios y empleo salario medio mediano smi paro epa precariedad temporalidad brecha"
+    },
+    {
+      "url": "/vida/coste-vida/",
+      "titulo": "Coste de vida e inflación",
+      "tipo": "indicador",
+      "texto": "ipc alimentos energía luz cesta compra precios",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.8,
+      "keywords": "coste de vida e inflación ipc alimentos energía luz cesta compra precios"
+    },
+    {
+      "url": "/guerra/",
+      "titulo": "Guerra — ¿Cuánto nos cuesta el rearme?",
+      "tipo": "sección",
+      "texto": "militar españa estados unidos israel ucrania armas exportaciones bases",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "guerra — ¿cuánto nos cuesta el rearme? militar españa estados unidos israel ucrania armas exportaciones bases"
+    },
+    {
+      "url": "/guerra/espana/",
+      "titulo": "España: gasto militar y rearme",
+      "tipo": "indicador",
+      "texto": "defensa rearme otan dos por ciento pib presupuestos",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "keywords": "españa: gasto militar y rearme defensa rearme otan dos por ciento pib presupuestos"
+    },
+    {
+      "url": "/guerra/estados-unidos/",
+      "titulo": "EE.UU. — relación militar con España",
+      "tipo": "análisis",
+      "texto": "bases rota morón acuerdo defensa cooperación compras material",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.7,
+      "keywords": "ee.uu. — relación militar con españa bases rota morón acuerdo defensa cooperación compras material"
+    },
+    {
+      "url": "/guerra/israel/",
+      "titulo": "Israel — relaciones económicas y militares",
+      "tipo": "indicador",
+      "texto": "exportaciones importaciones licencias jimddu embargo contratos armamento",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "keywords": "israel — relaciones económicas y militares exportaciones importaciones licencias jimddu embargo contratos armamento"
+    },
+    {
+      "url": "/guerra/ucrania/",
+      "titulo": "Ucrania — ayuda española",
+      "tipo": "indicador",
+      "texto": "paquetes ayuda militar bilateral europeo fondo paz",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.7,
+      "keywords": "ucrania — ayuda española paquetes ayuda militar bilateral europeo fondo paz"
+    },
+    {
+      "url": "/democracia/",
+      "titulo": "Democracia — ¿Qué está pasando?",
+      "tipo": "sección",
+      "texto": "discurso datos derechos inmigración percepción verificador participación",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "democracia — ¿qué está pasando? discurso datos derechos inmigración percepción verificador participación"
+    },
+    {
+      "url": "/democracia/extrema-derecha/",
+      "titulo": "Inmigración: percepción frente a realidad",
+      "tipo": "análisis",
+      "texto": "inmigración percepción criminalidad empleo extranjeros datos brecha discurso",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "keywords": "inmigración: percepción frente a realidad inmigración percepción criminalidad empleo extranjeros datos brecha discurso"
+    },
+    {
+      "url": "/verificador/",
+      "titulo": "Verificador de afirmaciones",
+      "tipo": "herramienta",
+      "texto": "comprobar afirmación bulo inmigrantes ayudas trabajo criminalidad gasto otan pensiones",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.9,
+      "keywords": "verificador de afirmaciones comprobar afirmación bulo inmigrantes ayudas trabajo criminalidad gasto otan pensiones"
+    },
+    {
+      "url": "/empresa/",
+      "titulo": "Empresas — estado del proyecto",
+      "tipo": "página",
+      "texto": "indra contratos subvenciones deuda empresa perfil",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.4,
+      "keywords": "empresas — estado del proyecto indra contratos subvenciones deuda empresa perfil"
+    },
+    {
+      "url": "/analisis/",
+      "titulo": "Análisis",
+      "tipo": "sección",
+      "texto": "artículos explicaciones datos contexto quién se beneficia",
+      "lastmod": "2026-09-02",
+      "changefreq": "weekly",
+      "priority": 0.8,
+      "keywords": "análisis artículos explicaciones datos contexto quién se beneficia"
+    },
+    {
+      "url": "/analisis/quien-se-beneficia-del-aumento-del-gasto-militar/",
+      "titulo": "¿Quién se beneficia del aumento del gasto militar?",
+      "tipo": "artículo",
+      "texto": "contratos industria defensa aesmide indra santa bárbara programas especiales armamento",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.8,
+      "keywords": "¿quién se beneficia del aumento del gasto militar? contratos industria defensa aesmide indra santa bárbara programas especiales armamento"
+    },
+    {
+      "url": "/metodologia/",
+      "titulo": "Metodología y transparencia",
+      "tipo": "página",
+      "texto": "cálculo contadores equivalencias revisiones estimado oficial limitaciones",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.5,
+      "keywords": "metodología y transparencia cálculo contadores equivalencias revisiones estimado oficial limitaciones"
+    },
+    {
+      "url": "/fuentes/",
+      "titulo": "Fuentes de datos",
+      "tipo": "página",
+      "texto": "ine eurostat igae hacienda placsp boe cis comercio defensa licencias",
+      "lastmod": "2026-09-02",
+      "changefreq": "monthly",
+      "priority": 0.5,
+      "keywords": "fuentes de datos ine eurostat igae hacienda placsp boe cis comercio defensa licencias"
+    },
+    {
+      "url": "/dinero/gasto-militar/",
+      "titulo": "Gasto militar: créditos del Ministerio de Defensa",
+      "tipo": "indicador",
+      "keywords": "gasto militar: créditos del ministerio de defensa créditos presupuestarios gestionados por el ministerio de defensa en cada ejercicio (sección 19 del pge, incluidos organismos autónomos). no equivale al criterio otan, que suma pensiones militares y otros conceptos. presupuestos generales del estado (ministerio de hacienda) / igae",
+      "mock": false
+    },
+    {
+      "url": "/dinero/presupuesto/",
+      "titulo": "Presupuesto del Estado: partidas principales",
+      "tipo": "indicador",
+      "keywords": "presupuesto del estado: partidas principales partidas del presupuesto del estado que producen un retorno social directo (servicio público, ayuda social) frente a las que no: coste financiero puro, gasto militar y deuda tributaria no cobrada. el grueso del presupuesto —pensiones, sanidad, educación, carreteras— es inversión social y se respeta como el mayor logro de la sociedad; aquí se muestra solo la parte que no vuelve a la ciudadanía. ministerio de hacienda — pge / igae / seguridad social",
+      "mock": false
+    },
+    {
+      "url": "/vida/vivienda/",
+      "titulo": "Índice de precios de vivienda (2015=100)",
+      "tipo": "indicador",
+      "keywords": "índice de precios de vivienda (2015=100) índice de precios de vivienda, base 2015=100, datos trimestrales. eurostat (datos oficiales ue, incluida españa)",
+      "mock": false
+    },
+    {
+      "url": "/vida/vivienda/",
+      "titulo": "Variación anual del precio del alquiler (IPCA)",
+      "tipo": "indicador",
+      "keywords": "variación anual del precio del alquiler (ipca) variación anual del subgrupo \"alquileres reales pagados por inquilinos\" del ipc armonizado. eurostat (datos oficiales ue, incluida españa)",
+      "mock": false
+    },
+    {
+      "url": "/vida/salarios/",
+      "titulo": "Salarios: ganancia media anual por trabajador",
+      "tipo": "indicador",
+      "keywords": "salarios: ganancia media anual por trabajador ganancia media anual por trabajador (salario medio bruto) según la encuesta anual de estructura salarial (eaes) del ine. ine — encuesta anual de estructura salarial (eaes)",
+      "mock": false
+    },
+    {
+      "url": "/vida/salarios/",
+      "titulo": "Tasa de paro mensual (ajustada de estacionalidad)",
+      "tipo": "indicador",
+      "keywords": "tasa de paro mensual (ajustada de estacionalidad) porcentaje de activos en paro, ajustado de estacionalidad, ambos sexos. eurostat (datos oficiales ue, incluida españa)",
+      "mock": false
+    },
+    {
+      "url": "/vida/coste-vida/",
+      "titulo": "Inflación (IPC): variación anual del índice general",
+      "tipo": "indicador",
+      "keywords": "inflación (ipc): variación anual del índice general variación porcentual anual del índice de precios de consumo general nacional. ine — instituto nacional de estadística",
+      "mock": false
+    },
+    {
+      "url": "/vida/coste-vida/",
+      "titulo": "Coeficiente de Gini (desigualdad de renta)",
+      "tipo": "indicador",
+      "keywords": "coeficiente de gini (desigualdad de renta) coeficiente de gini de la renta disponible equivalizada. 0 = igualdad total, 100 = desigualdad máxima. eurostat (datos oficiales ue, incluida españa)",
+      "mock": false
+    }
+  ]
+}

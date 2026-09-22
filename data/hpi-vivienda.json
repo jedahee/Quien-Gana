@@ -1,0 +1,198 @@
+{
+  "id": "hpi-vivienda",
+  "titulo": "Índice de precios de vivienda (2015=100)",
+  "unidad": "índice",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "vida",
+  "definicion": "Índice de precios de vivienda, base 2015=100, datos trimestrales.",
+  "metodologia": "Dataset prc_hpi_q de Eurostat (INE y Banco de España). Mide evolución relativa de precios, no el nivel en €/m².",
+  "fuente": {
+    "nombre": "Eurostat (datos oficiales UE, incluida España)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/prc_hpi_q/default/table",
+    "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_hpi_q?format=JSON&lang=EN&geo=ES&unit=I15_Q&purchase=TOTAL&sinceTimePeriod=2015-Q1"
+  },
+  "actualizado": "2026-09-22T20:44:51.668Z",
+  "observaciones": [
+    {
+      "periodo": "2015-Q1",
+      "valor": 96.67
+    },
+    {
+      "periodo": "2015-Q2",
+      "valor": 100.67
+    },
+    {
+      "periodo": "2015-Q3",
+      "valor": 101.34
+    },
+    {
+      "periodo": "2015-Q4",
+      "valor": 101.31
+    },
+    {
+      "periodo": "2016-Q1",
+      "valor": 102.74
+    },
+    {
+      "periodo": "2016-Q2",
+      "valor": 104.55
+    },
+    {
+      "periodo": "2016-Q3",
+      "valor": 105.41
+    },
+    {
+      "periodo": "2016-Q4",
+      "valor": 105.78
+    },
+    {
+      "periodo": "2017-Q1",
+      "valor": 108.2
+    },
+    {
+      "periodo": "2017-Q2",
+      "valor": 110.39
+    },
+    {
+      "periodo": "2017-Q3",
+      "valor": 112.43
+    },
+    {
+      "periodo": "2017-Q4",
+      "valor": 113.39
+    },
+    {
+      "periodo": "2018-Q1",
+      "valor": 114.96
+    },
+    {
+      "periodo": "2018-Q2",
+      "valor": 117.9
+    },
+    {
+      "periodo": "2018-Q3",
+      "valor": 120.48
+    },
+    {
+      "periodo": "2018-Q4",
+      "valor": 120.97
+    },
+    {
+      "periodo": "2019-Q1",
+      "valor": 122.88
+    },
+    {
+      "periodo": "2019-Q2",
+      "valor": 124.27
+    },
+    {
+      "periodo": "2019-Q3",
+      "valor": 126.26
+    },
+    {
+      "periodo": "2019-Q4",
+      "valor": 125.44
+    },
+    {
+      "periodo": "2020-Q1",
+      "valor": 126.92
+    },
+    {
+      "periodo": "2020-Q2",
+      "valor": 126.98
+    },
+    {
+      "periodo": "2020-Q3",
+      "valor": 128.56
+    },
+    {
+      "periodo": "2020-Q4",
+      "valor": 127.55
+    },
+    {
+      "periodo": "2021-Q1",
+      "valor": 128.12
+    },
+    {
+      "periodo": "2021-Q2",
+      "valor": 131.15
+    },
+    {
+      "periodo": "2021-Q3",
+      "valor": 133.92
+    },
+    {
+      "periodo": "2021-Q4",
+      "valor": 135.58
+    },
+    {
+      "periodo": "2022-Q1",
+      "valor": 139.05
+    },
+    {
+      "periodo": "2022-Q2",
+      "valor": 141.71
+    },
+    {
+      "periodo": "2022-Q3",
+      "valor": 144.15
+    },
+    {
+      "periodo": "2022-Q4",
+      "valor": 142.99
+    },
+    {
+      "periodo": "2023-Q1",
+      "valor": 143.98
+    },
+    {
+      "periodo": "2023-Q2",
+      "valor": 146.97
+    },
+    {
+      "periodo": "2023-Q3",
+      "valor": 150.68
+    },
+    {
+      "periodo": "2023-Q4",
+      "valor": 149.13
+    },
+    {
+      "periodo": "2024-Q1",
+      "valor": 153.18
+    },
+    {
+      "periodo": "2024-Q2",
+      "valor": 158.63
+    },
+    {
+      "periodo": "2024-Q3",
+      "valor": 163.12
+    },
+    {
+      "periodo": "2024-Q4",
+      "valor": 166.07
+    },
+    {
+      "periodo": "2025-Q1",
+      "valor": 172
+    },
+    {
+      "periodo": "2025-Q2",
+      "valor": 178.89
+    },
+    {
+      "periodo": "2025-Q3",
+      "valor": 184.06
+    },
+    {
+      "periodo": "2025-Q4",
+      "valor": 187.45
+    },
+    {
+      "periodo": "2026-Q1",
+      "valor": 194.06
+    }
+  ]
+}

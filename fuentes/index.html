@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fuentes de datos | ¿Quién Gana?</title>
+<meta name="description" content="Catálogo completo de fuentes de ¿Quién Gana?: INE, Eurostat, PGE/IGAE, PLACSP y documentos oficiales importados manualmente, con estado de cada conjunto de datos.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/fuentes/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fuentes de datos | ¿Quién Gana?">
+<meta name="twitter:description" content="Catálogo completo de fuentes de ¿Quién Gana?: INE, Eurostat, PGE/IGAE, PLACSP y documentos oficiales importados manualmente, con estado de cada conjunto de datos.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Fuentes","item":"https://jedahee.github.io/Quien-Gana/fuentes/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../"><img src="../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../">Inicio</a></li>
+      <li><a href="../dinero/">Dinero</a></li>
+      <li><a href="../vida/">Vida</a></li>
+      <li><a href="../guerra/">Guerra</a></li>
+      <li><a href="../democracia/">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <section class="page-hero reveal">
+      <p class="kicker">Transparencia · 📚 Fuentes</p>
+      <h1>De dónde salen nuestros datos</h1>
+      <p class="lead">Todo lo publicado procede de una de estas tres vías: APIs estadísticas oficiales (automático), documentos oficiales importados manualmente, o fuentes secundarias claramente etiquetadas.</p>
+    </section>
+
+    <section class="reveal">
+      <h2>APIs oficiales (actualización automática semanal)</h2>
+      <table class="data-table" style="width:100%">
+        <thead><tr><th scope="col">Conjunto</th><th scope="col">Origen</th><th scope="col">Serie/dataset</th><th scope="col">Frecuencia</th></tr></thead>
+        <tbody>
+          <tr><td>IPC nacional (variación anual)</td><td>INE Tempus3</td><td><code>IPC251856</code></td><td>Mensual</td></tr>
+          <tr><td>Población total</td><td>Eurostat</td><td><code>demo_pjan</code></td><td>Anual</td></tr>
+          <tr><td>Tasa de paro</td><td>Eurostat</td><td><code>une_rt_m</code></td><td>Mensual</td></tr>
+          <tr><td>Índice precios vivienda</td><td>Eurostat</td><td><code>prc_hpi_q</code></td><td>Trimestral</td></tr>
+          <tr><td>Inflación del alquiler</td><td>Eurostat</td><td><code>prc_hicp_manr</code> (RENT)</td><td>Mensual</td></tr>
+          <tr><td>Gini</td><td>Eurostat</td><td><code>ilc_di12</code></td><td>Anual</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="reveal">
+      <h2>Importación manual desde documentos oficiales</h2>
+      <table class="data-table" style="width:100%">
+        <thead><tr><th scope="col">Conjunto</th><th scope="col">Documento de origen</th><th scope="col">Estado</th></tr></thead>
+        <tbody>
+          <tr><td>Gasto Defensa (serie)</td><td>PGE borradores y liquidaciones IGAE</td><td>Activo · huecos marcados (2017, 2019, 2023)</td></tr>
+          <tr><td>Partidas PGE</td><td>Hacienda (PGE-2023), Moncloa (ejecución pensiones 2025)</td><td>Activo · ejercicio mixto declarado</td></tr>
+          <tr><td>Salarios EAES</td><td>INE EAES 2023–2024</td><td>Activo</td></tr>
+          <tr><td>Ayuda a Ucrania</td><td>Respuestas parlamentarias y comparecencias</td><td>Activo · ejecutado vs anunciado separados</td></tr>
+          <tr><td>Material defensa–Israel</td><td>Secretaría Estado Comercio / informes Jimddu</td><td>Activo · categorías separadas</td></tr>
+          <tr><td>Niveles vivienda €/m²</td><td>Idealista/pisos.com vía agencias + HabitMITma</td><td>Activo · portales etiquetados; contraste oficial pendiente</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="reveal">
+      <h2>Fuentes secundarias etiquetadas</h2>
+      <ul>
+        <li><strong>Centre Delàs d'Estudis per la Pau:</strong> criterio amplio de gasto militar y contratos a industrias israelíes. Fuente no gubernamental, siempre señalizada.</li>
+        <li><strong>ElDiario.es / Público / RTVE / Euronews:</strong> cobertura de respuestas parlamentarias y declaraciones oficiales cuando el documento original no está en línea.</li>
+        <li><strong>Reuters / The Guardian / El País:</strong> acuerdo UE–EE.UU. (agosto de 2026) mientras no exista texto jurídico público.</li>
+      </ul>
+      <p style="color:var(--muted)">El detalle técnico de endpoints, parámetros y errores conocidos de cada API está en <code>DATA_SOURCES.md</code> del repositorio; las reglas de tratamiento, en <a href="../metodologia/">Metodología</a>.</p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../dinero/">Dinero</a></li>
+        <li><a href="../vida/">Vida</a></li>
+        <li><a href="../guerra/">Guerra</a></li>
+        <li><a href="../democracia/">Democracia</a></li>
+        <li><a href="../verificador/">Verificador</a></li>
+        <li><a href="../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../metodologia/">Metodología</a></li>
+        <li><a href="../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../assets/js/main.js?v=37f78c9850" type="module"></script>
+</body>
+</html>

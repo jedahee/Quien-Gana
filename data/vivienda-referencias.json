@@ -1,0 +1,28 @@
+{
+  "id": "vivienda-referencias",
+  "titulo": "Vivienda: niveles de precio (venta y alquiler)",
+  "unidad": "€/m²",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "vida",
+  "definicion": "Niveles de precio de la vivienda en venta (vivienda usada) y en alquiler para el conjunto de España. La tendencia oficial está en los índices (hpi-vivienda, alquiler-inflacion); estos valores dan el nivel en euros.",
+  "metodologia": "Los niveles en €/m² proceden de portales inmobiliarios (muestra de oferta publicada), no de registros oficiales. Se etiquetan como tal. El Ministerio de Vivienda publica datos oficiales por fianzas y tasaciones (Observatorio HabitMITma) pero sin API: importación manual pendiente. Superficie media usada en cálculos: 90 m² (supuesto conservador documentado; Fomento estimó ~96 m² con datos de fianzas en 2019).",
+  "fuente": {
+    "nombre": "Idealista / pisos.com (portales, etiquetados) — contraste oficial: Observatorio HabitMITma",
+    "url": "https://habitatweb.mitma.gob.es/observatorio-habitat"
+  },
+  "referencias": [
+    { "label": "Alquiler: 14,7 €/m² a cierre de 2025 (+8,5% interanual) — Idealista", "url": "https://es.euronews.com/2026/01/02/el-precio-del-alquiler-cierra-2025-con-maximos-historicos-en-espana" },
+    { "label": "Alquiler: 14,21 €/m² en dic. 2025 — pisos.com", "url": "https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-precio-medio-alquiler-espana-cerro-2025-subida-167-pisoscom-20260113110238.html" },
+    { "label": "Venta (usada): >2.600 €/m² en nov. 2025 — Idealista", "url": "https://www.elperiodico.com/es/economia/20251225/acceso-vivienda-alquiler-peor-2025-125120919" },
+    { "label": "Superficie media (~96 m², datos de fianzas, Fomento 2019)", "url": "https://www.europapress.es/economia/construccion-y-vivienda-00342/noticia-alquiler-vivienda-espana-cuesta-media-674-euros-mes-fomento-20190926123352.html" }
+  ],
+  "actualizado": "2026-08-23",
+  "valores": {
+    "alquiler_eur_m2": { "valor": 14.7, "periodo": "4T 2025", "fuente": "Idealista (portal)" },
+    "alquiler_var_interanual_pct": { "valor": 8.5, "periodo": "2025", "fuente": "Idealista (portal)" },
+    "venta_eur_m2": { "valor": 2605, "periodo": "nov 2025", "fuente": "Idealista (portal)" },
+    "superficie_media_m2": { "valor": 90, "nota": "Supuesto metodológico propio, conservador frente a las ~96 m² estimadas por Fomento." }
+  },
+  "observaciones": []
+}

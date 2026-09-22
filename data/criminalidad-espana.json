@@ -1,0 +1,356 @@
+{
+  "id": "criminalidad-espana",
+  "titulo": "Delincuencia registrada en España (por 100.000 hab.)",
+  "unidad": "infracciones por 100.000 habitantes",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "democracia",
+  "definicion": "Infracciones penales registradas por la policía según categoría ICCS, por 100.000 habitantes. Series separadas por tipo de delito.",
+  "metodologia": "Dataset crim_off_cat de Eurostat (datos reportados por el Ministerio del Interior español). Cada categoría se analiza por separado: no se suma una \"criminalidad total\".",
+  "fuente": {
+    "nombre": "Eurostat (datos oficiales UE, incluida España)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table",
+    "endpoint": [
+      "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_off_cat?format=JSON&lang=EN&geo=ES&unit=P_HTHAB&sinceTimePeriod=2012&iccs=ICCS0101",
+      "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_off_cat?format=JSON&lang=EN&geo=ES&unit=P_HTHAB&sinceTimePeriod=2012&iccs=ICCS020111",
+      "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_off_cat?format=JSON&lang=EN&geo=ES&unit=P_HTHAB&sinceTimePeriod=2012&iccs=ICCS0401",
+      "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_off_cat?format=JSON&lang=EN&geo=ES&unit=P_HTHAB&sinceTimePeriod=2012&iccs=ICCS0501",
+      "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/crim_off_cat?format=JSON&lang=EN&geo=ES&unit=P_HTHAB&sinceTimePeriod=2012&iccs=ICCS0502"
+    ]
+  },
+  "actualizado": "2026-09-22T20:44:51.668Z",
+  "observaciones": [
+    {
+      "periodo": "2012",
+      "categoria": "ICCS0101",
+      "valor": 0.78
+    },
+    {
+      "periodo": "2012",
+      "categoria": "ICCS020111",
+      "valor": 37.06
+    },
+    {
+      "periodo": "2012",
+      "categoria": "ICCS0401",
+      "valor": 206.34
+    },
+    {
+      "periodo": "2012",
+      "categoria": "ICCS0501",
+      "valor": 396.65
+    },
+    {
+      "periodo": "2012",
+      "categoria": "ICCS0502",
+      "valor": 445.23
+    },
+    {
+      "periodo": "2013",
+      "categoria": "ICCS0101",
+      "valor": 0.65
+    },
+    {
+      "periodo": "2013",
+      "categoria": "ICCS020111",
+      "valor": 35.74
+    },
+    {
+      "periodo": "2013",
+      "categoria": "ICCS0401",
+      "valor": 184.12
+    },
+    {
+      "periodo": "2013",
+      "categoria": "ICCS0501",
+      "valor": 397.85
+    },
+    {
+      "periodo": "2013",
+      "categoria": "ICCS0502",
+      "valor": 430.43
+    },
+    {
+      "periodo": "2014",
+      "categoria": "ICCS0101",
+      "valor": 0.69
+    },
+    {
+      "periodo": "2014",
+      "categoria": "ICCS020111",
+      "valor": 36.07
+    },
+    {
+      "periodo": "2014",
+      "categoria": "ICCS0401",
+      "valor": 152.34
+    },
+    {
+      "periodo": "2014",
+      "categoria": "ICCS0501",
+      "valor": 370.8
+    },
+    {
+      "periodo": "2014",
+      "categoria": "ICCS0502",
+      "valor": 404.61
+    },
+    {
+      "periodo": "2015",
+      "categoria": "ICCS0101",
+      "valor": 0.65
+    },
+    {
+      "periodo": "2015",
+      "categoria": "ICCS020111",
+      "valor": 62.55
+    },
+    {
+      "periodo": "2015",
+      "categoria": "ICCS0401",
+      "valor": 139.03
+    },
+    {
+      "periodo": "2015",
+      "categoria": "ICCS0501",
+      "valor": 342.87
+    },
+    {
+      "periodo": "2015",
+      "categoria": "ICCS0502",
+      "valor": 520.87
+    },
+    {
+      "periodo": "2016",
+      "categoria": "ICCS0101",
+      "valor": 0.63
+    },
+    {
+      "periodo": "2016",
+      "categoria": "ICCS020111",
+      "valor": 37.32
+    },
+    {
+      "periodo": "2016",
+      "categoria": "ICCS0401",
+      "valor": 135.56
+    },
+    {
+      "periodo": "2016",
+      "categoria": "ICCS0501",
+      "valor": 336.79
+    },
+    {
+      "periodo": "2016",
+      "categoria": "ICCS0502",
+      "valor": 435.36
+    },
+    {
+      "periodo": "2017",
+      "categoria": "ICCS0101",
+      "valor": 0.66
+    },
+    {
+      "periodo": "2017",
+      "categoria": "ICCS020111",
+      "valor": 38.87
+    },
+    {
+      "periodo": "2017",
+      "categoria": "ICCS0401",
+      "valor": 132.74
+    },
+    {
+      "periodo": "2017",
+      "categoria": "ICCS0501",
+      "valor": 307.07
+    },
+    {
+      "periodo": "2017",
+      "categoria": "ICCS0502",
+      "valor": 429.07
+    },
+    {
+      "periodo": "2018",
+      "categoria": "ICCS0101",
+      "valor": 0.62
+    },
+    {
+      "periodo": "2018",
+      "categoria": "ICCS020111",
+      "valor": 39.2
+    },
+    {
+      "periodo": "2018",
+      "categoria": "ICCS0401",
+      "valor": 129.23
+    },
+    {
+      "periodo": "2018",
+      "categoria": "ICCS0501",
+      "valor": 301.17
+    },
+    {
+      "periodo": "2018",
+      "categoria": "ICCS0502",
+      "valor": 425.31
+    },
+    {
+      "periodo": "2019",
+      "categoria": "ICCS0101",
+      "valor": 0.71
+    },
+    {
+      "periodo": "2019",
+      "categoria": "ICCS020111",
+      "valor": 42.73
+    },
+    {
+      "periodo": "2019",
+      "categoria": "ICCS0401",
+      "valor": 140.35
+    },
+    {
+      "periodo": "2019",
+      "categoria": "ICCS0501",
+      "valor": 280.43
+    },
+    {
+      "periodo": "2019",
+      "categoria": "ICCS0502",
+      "valor": 436.44
+    },
+    {
+      "periodo": "2020",
+      "categoria": "ICCS0101",
+      "valor": 0.63
+    },
+    {
+      "periodo": "2020",
+      "categoria": "ICCS020111",
+      "valor": 32.9
+    },
+    {
+      "periodo": "2020",
+      "categoria": "ICCS0401",
+      "valor": 95.63
+    },
+    {
+      "periodo": "2020",
+      "categoria": "ICCS0501",
+      "valor": 282.48
+    },
+    {
+      "periodo": "2020",
+      "categoria": "ICCS0502",
+      "valor": 263.04
+    },
+    {
+      "periodo": "2021",
+      "categoria": "ICCS0101",
+      "valor": 0.61
+    },
+    {
+      "periodo": "2021",
+      "categoria": "ICCS020111",
+      "valor": 41.65
+    },
+    {
+      "periodo": "2021",
+      "categoria": "ICCS0401",
+      "valor": 111.97
+    },
+    {
+      "periodo": "2021",
+      "categoria": "ICCS0501",
+      "valor": 269.15
+    },
+    {
+      "periodo": "2021",
+      "categoria": "ICCS0502",
+      "valor": 305.05
+    },
+    {
+      "periodo": "2022",
+      "categoria": "ICCS0101",
+      "valor": 0.69
+    },
+    {
+      "periodo": "2022",
+      "categoria": "ICCS020111",
+      "valor": 54.6
+    },
+    {
+      "periodo": "2022",
+      "categoria": "ICCS0401",
+      "valor": 133.65
+    },
+    {
+      "periodo": "2022",
+      "categoria": "ICCS0501",
+      "valor": 313.52
+    },
+    {
+      "periodo": "2022",
+      "categoria": "ICCS0502",
+      "valor": 433.24
+    },
+    {
+      "periodo": "2023",
+      "categoria": "ICCS0101",
+      "valor": 0.69
+    },
+    {
+      "periodo": "2023",
+      "categoria": "ICCS020111",
+      "valor": 55.07
+    },
+    {
+      "periodo": "2023",
+      "categoria": "ICCS0401",
+      "valor": 134.58
+    },
+    {
+      "periodo": "2023",
+      "categoria": "ICCS0501",
+      "valor": 314.72
+    },
+    {
+      "periodo": "2023",
+      "categoria": "ICCS0502",
+      "valor": 462.37
+    },
+    {
+      "periodo": "2024",
+      "categoria": "ICCS0101",
+      "valor": 0.72
+    },
+    {
+      "periodo": "2024",
+      "categoria": "ICCS020111",
+      "valor": 59.08
+    },
+    {
+      "periodo": "2024",
+      "categoria": "ICCS0401",
+      "valor": 129.53
+    },
+    {
+      "periodo": "2024",
+      "categoria": "ICCS0501",
+      "valor": 293.27
+    },
+    {
+      "periodo": "2024",
+      "categoria": "ICCS0502",
+      "valor": 450.87
+    }
+  ],
+  "categorias": {
+    "ICCS0101": "Homicidio intencional",
+    "ICCS020111": "Lesiones graves",
+    "ICCS0401": "Robo con violencia o intimidación",
+    "ICCS0501": "Robo con fuerza (allanamiento)",
+    "ICCS0502": "Hurto"
+  }
+}
