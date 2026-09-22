@@ -1,0 +1,9 @@
+# ¿Quién Gana? — robots.txt
+# Todo el sitio es público y estático: no hay nada que bloquear.
+# Los datos en /data/ son JSON consumidos por el propio sitio; se permiten.
+
+User-agent: *
+Allow: /
+
+# Sitemap (regenerado con: node scripts/build-sitemap.mjs)
+Sitemap: https://www.quiengana.es/sitemap.xml

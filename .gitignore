@@ -1,0 +1,15 @@
+# Dependencias y entorno local
+node_modules/
+.env
+
+# Logs y temporales
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Previews locales ajenos
+*.pyc
+__pycache__/

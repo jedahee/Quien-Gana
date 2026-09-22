@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salarios y empleo — cuánto se cobra en España | ¿Quién Gana?</title>
+<meta name="description" content="Salario medio anual (29.540 € en 2024), salario mediano, SMI 2025 y tasa de paro mensual. Datos del INE y Eurostat con la diferencia entre media y mediana explicada.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/vida/salarios/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Salarios y empleo — cuánto se cobra en España | ¿Quién Gana?">
+<meta name="twitter:description" content="Salario medio anual (29.540 € en 2024), salario mediano, SMI 2025 y tasa de paro mensual. Datos del INE y Eurostat con la diferencia entre media y mediana explicada.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Vida","item":"https://jedahee.github.io/Quien-Gana/vida/"},
+{"@type":"ListItem","position":3,"name":"Salarios y empleo","item":"https://jedahee.github.io/Quien-Gana/vida/salarios/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../../"><img src="../../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../../">Inicio</a></li>
+      <li><a href="../../dinero/">Dinero</a></li>
+      <li><a href="../../vida/" aria-current="page">Vida</a></li>
+      <li><a href="../../guerra/">Guerra</a></li>
+      <li><a href="../../democracia/">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Miga de pan">
+      <ol><li><a href="../../">Inicio</a></li><li><a href="../../vida/">Vida</a></li><li aria-current="page">Salarios y empleo</li></ol>
+    </nav>
+
+    <section class="page-hero reveal">
+      <p class="kicker">Indicador · 💼 Salarios y empleo</p>
+      <h1>Cuánto se cobra — y por qué «la media» engaña</h1>
+    </section>
+
+    <section class="reveal">
+      <div class="stat-row">
+        <div>
+          <div class="stat-big"><span data-animate-to="29540">0</span><span class="stat-unit">€/año</span></div>
+          <p class="stat-period">Salario medio bruto · EAES 2024 (INE)</p>
+        </div>
+        <div>
+          <div class="stat-big"><span data-animate-to="23349">0</span><span class="stat-unit">€/año</span></div>
+          <p class="stat-period">Salario mediano · EAES 2023 (INE)</p>
+        </div>
+        <div>
+          <div class="stat-big"><span data-animate-to="16576">0</span><span class="stat-unit">€/año</span></div>
+          <p class="stat-period">Salario Mínimo Interprofesional 2025 (14 pagas)</p>
+        </div>
+        <div>
+          <div class="stat-big"><span id="paro-val">—</span></div>
+          <p class="stat-period">Tasa de paro · <span id="paro-periodo"></span> (EPA vía Eurostat)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Evolución del salario medio</h2>
+      <div class="chart-wrap">
+        <p class="chart-title">Salario medio bruto anual (EAES, €)</p>
+        <p class="chart-sub">Encuesta Anual de Estructura Salarial del INE. Publicación anual con retraso (~18 meses).</p>
+        <div id="chart-eaes"></div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tasa de paro mensual</h2>
+      <div class="chart-wrap">
+        <p class="chart-title">Tasa de desempleo (%) — serie mensual Eurostat une_rt_m</p>
+        <p class="chart-sub">Gráfico con medias anuales; serie mensual completa en la tabla. Pasa el ratón por los puntos.</p>
+        <div id="chart-paro"></div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Media ≠ mediana: la trampa más común</h2>
+      <p style="max-width:48rem;color:var(--muted)">
+        El salario <strong>medio</strong> (29.540 €) se calcula sumando todos los sueldos y dividiendo: unos pocos sueldos
+        muy altos lo empujan hacia arriba. El salario <strong>mediano</strong> es el punto donde la mitad de la gente gana
+        menos y la mitad gana más: 23.349 € según la EAES 2023. Cuando alguien presume de «sueldo medio», piensa que la
+        mayoría cobra eso; la estadística dice que no.
+      </p>
+    </section>
+
+    <section class="reveal source-box">
+      <strong>Fuentes</strong>
+      <dl>
+        <dt>EAES:</dt><dd>INE, Encuesta Anual de Estructura Salarial (<a href="https://www.angelmartinez.es/cuadros-de-los-salarios-en-espana-segun-encuesta-anual-de-estructura-salarial-eaes-anos-2023-y-2024" rel="noopener" target="_blank">cuadros comparados 2023–2024</a>) — importación manual.</dd>
+        <dt>SMI 2025:</dt><dd><a href="https://trabajo.gob.es/es/salario-minimo-interprofesional" rel="noopener" target="_blank">Ministerio de Trabajo</a> (1.184 €/mes × 14 pagas = 16.576 €/año).</dd>
+        <dt>Paro:</dt><dd>Eurostat une_rt_m, serie SA (<a href="https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table" rel="noopener" target="_blank">descarga directa</a>) — actualización automática.</dd>
+      </dl>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../../dinero/">Dinero</a></li>
+        <li><a href="../../vida/">Vida</a></li>
+        <li><a href="../../guerra/">Guerra</a></li>
+        <li><a href="../../democracia/">Democracia</a></li>
+        <li><a href="../../verificador/">Verificador</a></li>
+        <li><a href="../../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../../metodologia/">Metodología</a></li>
+        <li><a href="../../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../../assets/js/main.js?v=37f78c9850" type="module"></script>
+<script type="module">
+import { QG } from '../../assets/js/data.js';
+import { renderLineChart } from '../../assets/js/charts.js';
+
+const eaes = await QG.loadJSON(QG.dataUrl('salarios-eaes.json'));
+renderLineChart(document.getElementById('chart-eaes'), {
+  points: eaes.observaciones.map(o => ({ x: o.periodo, y: o.valor })),
+  unit: '€',
+  title: 'Salario medio bruto anual (EAES)'
+});
+
+const paro = await QG.loadJSON(QG.dataUrl('paro-tasa.json'));
+renderLineChart(document.getElementById('chart-paro'), {
+  points: paro.observaciones.map(o => ({ x: o.periodo.replace(/^(\d{4})M(\d{2})$/, '$1/$2'), y: o.valor })),
+  unit: '%',
+  title: 'Tasa de paro mensual'
+});
+const plast = paro.observaciones.at(-1);
+document.getElementById('paro-val').textContent = `${QG.fmt(plast.valor, 1)} %`;
+document.getElementById('paro-periodo').textContent = plast.periodo;
+</script>
+</body>
+</html>

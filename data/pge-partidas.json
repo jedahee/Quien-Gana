@@ -1,0 +1,34 @@
+{
+  "id": "pge-partidas",
+  "titulo": "Presupuesto del Estado: partidas principales",
+  "unidad": "M€",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "dinero",
+  "definicion": "Partidas del Presupuesto del Estado que producen un retorno social directo (servicio público, ayuda social) frente a las que no: coste financiero puro, gasto militar y deuda tributaria no cobrada. El grueso del presupuesto —pensiones, sanidad, educación, carreteras— es inversión social y se respeta como el mayor logro de la sociedad; aquí se muestra solo la parte que no vuelve a la ciudadanía.",
+  "metodologia": "Cifras transcritas de notas oficiales y medios con cita de fuente (Hacienda/AEAT/IGAE). Cada partida indica ejercicio y definición exacta porque no todos los años son comparables. La automatización completa requiere procesar los CSV de presupuesto.gob.es (portal verificado inaccesible desde este entorno; pendiente de pipeline).",
+  "fuente": {
+    "nombre": "Ministerio de Hacienda — PGE / IGAE / Seguridad Social",
+    "url": "https://presupuesto.gob.es/abierto/DatosAbiertos"
+  },
+  "referencias": [
+    { "label": "Intereses de deuda pública PGE 2023: 31.275 M€", "url": "https://www.epdata.es/datos/presupupuestos-generales-estado-pge-evolucion-datos-estadisticas/60" },
+    { "label": "Transferencias a otras administraciones PGE 2023: 66.457 M€", "url": "https://www.epdata.es/datos/presupupuestos-generales-estado-pge-evolucion-datos-estadisticas/60" },
+    { "label": "Defensa liquidado 2025: 23.041 M€", "url": "/dinero/gasto-militar/" },
+    { "label": "Ayuda militar bilateral a Ucrania ≈4.000 M€ acumulados (Gobierno, marzo 2026)", "url": "/guerra/ucrania/" },
+    { "label": "Grandes deudores con la Hacienda Pública (AEAT, art. 95 bis LGT): deuda firme pendiente", "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/30/publicacion-listado-deudores-hacienda-publica.html" }
+  ],
+  "actualizado": "2026-08-24",
+  "partidas": [
+    { "nombre": "Transferencias a CCAA y entidades locales", "valor": 66457, "periodo": "PGE 2023", "tag": "servicio-publico", "nota": "Financia sanidad y educación gestionadas por las autonomías." },
+    { "nombre": "Intereses de la deuda pública", "valor": 31275, "periodo": "PGE 2023", "tag": "coste-puro", "nota": "Coste financiero puro: no produce ningún servicio ni retorno social directo. Beneficia a los tenedores de la deuda (banca y fondos)." },
+    { "nombre": "Defensa", "valor": 23041, "periodo": "2025 (liquidado)", "tag": "gasto-militar", "nota": "Adjudicado mayoritariamente mediante contratos públicos a empresas privadas. Ver página dedicada al gasto militar." },
+    { "nombre": "Ayuda militar bilateral a Ucrania", "valor": 4000, "periodo": "2022–2026 (anunciado)", "tag": "gasto-militar", "nota": "Acumulado bilateral declarado por el Gobierno; no incluye fondos europeos. Ver página de Ucrania." }
+  ],
+  "observaciones": [
+    { "periodo": "Grandes deudores AEAT", "valor": 15432, "nota": "Deuda firme pendiente · 5.853 deudores · dic-2025" },
+    { "periodo": "Intereses deuda", "valor": 31275, "nota": "PGE 2023 · coste financiero puro" },
+    { "periodo": "Defensa 2025", "valor": 23041, "nota": "Liquidado" },
+    { "periodo": "Ucrania (bilateral)", "valor": 4000, "nota": "2022–2026 anunciado" }
+  ]
+}

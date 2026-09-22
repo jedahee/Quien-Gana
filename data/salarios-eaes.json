@@ -1,0 +1,35 @@
+{
+  "id": "salarios-eaes",
+  "titulo": "Salarios: ganancia media anual por trabajador",
+  "unidad": "€ brutos/año",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "vida",
+  "definicion": "Ganancia media anual por trabajador (salario medio bruto) según la Encuesta Anual de Estructura Salarial (EAES) del INE.",
+  "metodologia": "Serie transcrita de las notas de prensa oficiales del INE (EAES, datos definitivos de cada año). La EAES se publica con ~17 meses de desfase. El salario mediano divide la distribución en dos mitades; el salario más frecuente es aún menor.",
+  "fuente": {
+    "nombre": "INE — Encuesta Anual de Estructura Salarial (EAES)",
+    "url": "https://ine.es/dyngs/Prensa/EAES2023.htm"
+  },
+  "referencias": [
+    { "label": "EAES 2023 definitiva (media 28.049,94 €; mediana 23.349 €)", "url": "https://ine.es/dyngs/Prensa/EAES2023.htm" },
+    { "label": "EAES 2024 (media nacional 29.540,26 €)", "url": "https://www.angelmartinez.es/cuadros-de-los-salarios-en-espana-segun-encuesta-anual-de-estructura-salarial-eaes-anos-2023-y-2024" }
+  ],
+  "actualizado": "2026-08-23",
+  "valores": {
+    "salario_mediano": { "valor": 23349, "periodo": "EAES 2023", "fuente": "INE" }
+  },
+  "observaciones": [
+    { "periodo": "2014", "valor": 22858 },
+    { "periodo": "2015", "valor": 23106 },
+    { "periodo": "2016", "valor": 23156 },
+    { "periodo": "2017", "valor": 23647 },
+    { "periodo": "2018", "valor": 24009 },
+    { "periodo": "2019", "valor": 24396 },
+    { "periodo": "2020", "valor": 25166 },
+    { "periodo": "2021", "valor": 25897 },
+    { "periodo": "2022", "valor": 26949 },
+    { "periodo": "2023", "valor": 28049.94, "nota": "Dato oficial exacto EAES 2023. Mediana: 23.349 €." },
+    { "periodo": "2024", "valor": 29540.26, "nota": "Último dato disponible (publicado mayo 2026)." }
+  ]
+}

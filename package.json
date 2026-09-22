@@ -1,0 +1,17 @@
+{
+  "name": "quien-gana",
+  "version": "0.1.0",
+  "private": true,
+  "description": "¿Quién Gana? — Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.",
+  "type": "module",
+  "scripts": {
+    "update-data": "node scripts/update-all.mjs",
+    "fetch-ine": "node scripts/fetch-ine.mjs",
+    "fetch-eurostat": "node scripts/fetch-eurostat.mjs",
+    "build-index": "node scripts/build-search-index.mjs",
+    "build-sitemap": "node scripts/build-sitemap.mjs",
+    "pwa": "node scripts/enhance-head.mjs && node scripts/build-search-index.mjs && node scripts/build-sitemap.mjs",
+    "serve": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "validate": "node scripts/validate-data.mjs"
+  }
+}

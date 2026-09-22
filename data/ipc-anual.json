@@ -1,0 +1,451 @@
+{
+  "id": "ipc-anual",
+  "titulo": "Inflación (IPC): variación anual del índice general",
+  "unidad": "%",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "vida",
+  "definicion": "Variación porcentual anual del Índice de Precios de Consumo general nacional.",
+  "metodologia": "Serie IPC251856 de la API Tempus3 del INE (\"Nacional. Índice general. Variación anual\"). Datos mensuales desde 2020.",
+  "fuente": {
+    "nombre": "INE — Instituto Nacional de Estadística",
+    "url": "https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735939495&p=1254735939495&pagename=ProductosYServicios%2FPYSLayout",
+    "serie": "IPC251856",
+    "endpoint": "https://servicios.ine.es/wstempus/js/ES/DATOS_SERIE/IPC251856?date=20200101:20261231"
+  },
+  "actualizado": "2026-09-22T20:44:50.190Z",
+  "observaciones": [
+    {
+      "periodo": "enero 2020",
+      "anyo": 2020,
+      "mes": 1,
+      "valor": 1.1
+    },
+    {
+      "periodo": "febrero 2020",
+      "anyo": 2020,
+      "mes": 2,
+      "valor": 0.7
+    },
+    {
+      "periodo": "marzo 2020",
+      "anyo": 2020,
+      "mes": 3,
+      "valor": 0
+    },
+    {
+      "periodo": "abril 2020",
+      "anyo": 2020,
+      "mes": 4,
+      "valor": -0.7
+    },
+    {
+      "periodo": "mayo 2020",
+      "anyo": 2020,
+      "mes": 5,
+      "valor": -0.9
+    },
+    {
+      "periodo": "junio 2020",
+      "anyo": 2020,
+      "mes": 6,
+      "valor": -0.3
+    },
+    {
+      "periodo": "julio 2020",
+      "anyo": 2020,
+      "mes": 7,
+      "valor": -0.6
+    },
+    {
+      "periodo": "agosto 2020",
+      "anyo": 2020,
+      "mes": 8,
+      "valor": -0.5
+    },
+    {
+      "periodo": "septiembre 2020",
+      "anyo": 2020,
+      "mes": 9,
+      "valor": -0.4
+    },
+    {
+      "periodo": "octubre 2020",
+      "anyo": 2020,
+      "mes": 10,
+      "valor": -0.8
+    },
+    {
+      "periodo": "noviembre 2020",
+      "anyo": 2020,
+      "mes": 11,
+      "valor": -0.8
+    },
+    {
+      "periodo": "diciembre 2020",
+      "anyo": 2020,
+      "mes": 12,
+      "valor": -0.5
+    },
+    {
+      "periodo": "enero 2021",
+      "anyo": 2021,
+      "mes": 1,
+      "valor": 0.5
+    },
+    {
+      "periodo": "febrero 2021",
+      "anyo": 2021,
+      "mes": 2,
+      "valor": 0
+    },
+    {
+      "periodo": "marzo 2021",
+      "anyo": 2021,
+      "mes": 3,
+      "valor": 1.3
+    },
+    {
+      "periodo": "abril 2021",
+      "anyo": 2021,
+      "mes": 4,
+      "valor": 2.2
+    },
+    {
+      "periodo": "mayo 2021",
+      "anyo": 2021,
+      "mes": 5,
+      "valor": 2.7
+    },
+    {
+      "periodo": "junio 2021",
+      "anyo": 2021,
+      "mes": 6,
+      "valor": 2.7
+    },
+    {
+      "periodo": "julio 2021",
+      "anyo": 2021,
+      "mes": 7,
+      "valor": 2.9
+    },
+    {
+      "periodo": "agosto 2021",
+      "anyo": 2021,
+      "mes": 8,
+      "valor": 3.3
+    },
+    {
+      "periodo": "septiembre 2021",
+      "anyo": 2021,
+      "mes": 9,
+      "valor": 4
+    },
+    {
+      "periodo": "octubre 2021",
+      "anyo": 2021,
+      "mes": 10,
+      "valor": 5.4
+    },
+    {
+      "periodo": "noviembre 2021",
+      "anyo": 2021,
+      "mes": 11,
+      "valor": 5.5
+    },
+    {
+      "periodo": "diciembre 2021",
+      "anyo": 2021,
+      "mes": 12,
+      "valor": 6.5
+    },
+    {
+      "periodo": "enero 2022",
+      "anyo": 2022,
+      "mes": 1,
+      "valor": 6.1
+    },
+    {
+      "periodo": "febrero 2022",
+      "anyo": 2022,
+      "mes": 2,
+      "valor": 7.6
+    },
+    {
+      "periodo": "marzo 2022",
+      "anyo": 2022,
+      "mes": 3,
+      "valor": 9.8
+    },
+    {
+      "periodo": "abril 2022",
+      "anyo": 2022,
+      "mes": 4,
+      "valor": 8.3
+    },
+    {
+      "periodo": "mayo 2022",
+      "anyo": 2022,
+      "mes": 5,
+      "valor": 8.7
+    },
+    {
+      "periodo": "junio 2022",
+      "anyo": 2022,
+      "mes": 6,
+      "valor": 10.2
+    },
+    {
+      "periodo": "julio 2022",
+      "anyo": 2022,
+      "mes": 7,
+      "valor": 10.8
+    },
+    {
+      "periodo": "agosto 2022",
+      "anyo": 2022,
+      "mes": 8,
+      "valor": 10.5
+    },
+    {
+      "periodo": "septiembre 2022",
+      "anyo": 2022,
+      "mes": 9,
+      "valor": 8.9
+    },
+    {
+      "periodo": "octubre 2022",
+      "anyo": 2022,
+      "mes": 10,
+      "valor": 7.3
+    },
+    {
+      "periodo": "noviembre 2022",
+      "anyo": 2022,
+      "mes": 11,
+      "valor": 6.8
+    },
+    {
+      "periodo": "diciembre 2022",
+      "anyo": 2022,
+      "mes": 12,
+      "valor": 5.7
+    },
+    {
+      "periodo": "enero 2023",
+      "anyo": 2023,
+      "mes": 1,
+      "valor": 5.9
+    },
+    {
+      "periodo": "febrero 2023",
+      "anyo": 2023,
+      "mes": 2,
+      "valor": 6
+    },
+    {
+      "periodo": "marzo 2023",
+      "anyo": 2023,
+      "mes": 3,
+      "valor": 3.3
+    },
+    {
+      "periodo": "abril 2023",
+      "anyo": 2023,
+      "mes": 4,
+      "valor": 4.1
+    },
+    {
+      "periodo": "mayo 2023",
+      "anyo": 2023,
+      "mes": 5,
+      "valor": 3.2
+    },
+    {
+      "periodo": "junio 2023",
+      "anyo": 2023,
+      "mes": 6,
+      "valor": 1.9
+    },
+    {
+      "periodo": "julio 2023",
+      "anyo": 2023,
+      "mes": 7,
+      "valor": 2.3
+    },
+    {
+      "periodo": "agosto 2023",
+      "anyo": 2023,
+      "mes": 8,
+      "valor": 2.6
+    },
+    {
+      "periodo": "septiembre 2023",
+      "anyo": 2023,
+      "mes": 9,
+      "valor": 3.5
+    },
+    {
+      "periodo": "octubre 2023",
+      "anyo": 2023,
+      "mes": 10,
+      "valor": 3.5
+    },
+    {
+      "periodo": "noviembre 2023",
+      "anyo": 2023,
+      "mes": 11,
+      "valor": 3.2
+    },
+    {
+      "periodo": "diciembre 2023",
+      "anyo": 2023,
+      "mes": 12,
+      "valor": 3.1
+    },
+    {
+      "periodo": "enero 2024",
+      "anyo": 2024,
+      "mes": 1,
+      "valor": 3.4
+    },
+    {
+      "periodo": "febrero 2024",
+      "anyo": 2024,
+      "mes": 2,
+      "valor": 2.8
+    },
+    {
+      "periodo": "marzo 2024",
+      "anyo": 2024,
+      "mes": 3,
+      "valor": 3.2
+    },
+    {
+      "periodo": "abril 2024",
+      "anyo": 2024,
+      "mes": 4,
+      "valor": 3.3
+    },
+    {
+      "periodo": "mayo 2024",
+      "anyo": 2024,
+      "mes": 5,
+      "valor": 3.6
+    },
+    {
+      "periodo": "junio 2024",
+      "anyo": 2024,
+      "mes": 6,
+      "valor": 3.4
+    },
+    {
+      "periodo": "julio 2024",
+      "anyo": 2024,
+      "mes": 7,
+      "valor": 2.8
+    },
+    {
+      "periodo": "agosto 2024",
+      "anyo": 2024,
+      "mes": 8,
+      "valor": 2.3
+    },
+    {
+      "periodo": "septiembre 2024",
+      "anyo": 2024,
+      "mes": 9,
+      "valor": 1.5
+    },
+    {
+      "periodo": "octubre 2024",
+      "anyo": 2024,
+      "mes": 10,
+      "valor": 1.8
+    },
+    {
+      "periodo": "noviembre 2024",
+      "anyo": 2024,
+      "mes": 11,
+      "valor": 2.4
+    },
+    {
+      "periodo": "diciembre 2024",
+      "anyo": 2024,
+      "mes": 12,
+      "valor": 2.8
+    },
+    {
+      "periodo": "enero 2025",
+      "anyo": 2025,
+      "mes": 1,
+      "valor": 2.9
+    },
+    {
+      "periodo": "febrero 2025",
+      "anyo": 2025,
+      "mes": 2,
+      "valor": 3
+    },
+    {
+      "periodo": "marzo 2025",
+      "anyo": 2025,
+      "mes": 3,
+      "valor": 2.3
+    },
+    {
+      "periodo": "abril 2025",
+      "anyo": 2025,
+      "mes": 4,
+      "valor": 2.2
+    },
+    {
+      "periodo": "mayo 2025",
+      "anyo": 2025,
+      "mes": 5,
+      "valor": 2
+    },
+    {
+      "periodo": "junio 2025",
+      "anyo": 2025,
+      "mes": 6,
+      "valor": 2.3
+    },
+    {
+      "periodo": "julio 2025",
+      "anyo": 2025,
+      "mes": 7,
+      "valor": 2.7
+    },
+    {
+      "periodo": "agosto 2025",
+      "anyo": 2025,
+      "mes": 8,
+      "valor": 2.7
+    },
+    {
+      "periodo": "septiembre 2025",
+      "anyo": 2025,
+      "mes": 9,
+      "valor": 3
+    },
+    {
+      "periodo": "octubre 2025",
+      "anyo": 2025,
+      "mes": 10,
+      "valor": 3.1
+    },
+    {
+      "periodo": "noviembre 2025",
+      "anyo": 2025,
+      "mes": 11,
+      "valor": 3
+    },
+    {
+      "periodo": "diciembre 2025",
+      "anyo": 2025,
+      "mes": 12,
+      "valor": 2.9
+    }
+  ]
+}

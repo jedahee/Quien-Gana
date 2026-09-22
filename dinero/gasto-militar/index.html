@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gasto militar en España — serie completa y criterios | ¿Quién Gana?</title>
+<meta name="description" content="Cuánto gasta España en Defensa: créditos liquidados año por año (2016–2025), el salto hasta los 23.041 M€, los criterios OTAN y qué incluye cada cifra. Con fuentes oficiales.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/dinero/gasto-militar/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gasto militar en España — serie completa y criterios | ¿Quién Gana?">
+<meta name="twitter:description" content="Cuánto gasta España en Defensa: créditos liquidados año por año (2016–2025), el salto hasta los 23.041 M€, los criterios OTAN y qué incluye cada cifra. Con fuentes oficiales.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Dinero","item":"https://jedahee.github.io/Quien-Gana/dinero/"},
+{"@type":"ListItem","position":3,"name":"Gasto militar","item":"https://jedahee.github.io/Quien-Gana/dinero/gasto-militar/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../../"><img src="../../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../../">Inicio</a></li>
+      <li><a href="../../dinero/" aria-current="page">Dinero</a></li>
+      <li><a href="../../vida/">Vida</a></li>
+      <li><a href="../../guerra/">Guerra</a></li>
+      <li><a href="../../democracia/">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Miga de pan">
+      <ol><li><a href="../../">Inicio</a></li><li><a href="../../dinero/">Dinero</a></li><li aria-current="page">Gasto militar</li></ol>
+    </nav>
+
+    <section class="page-hero reveal">
+      <p class="kicker">Indicador · 💰 Gasto militar</p>
+      <h1>¿Cuánto gastamos en defensa… y a quién beneficia?</h1>
+    </section>
+
+    <section class="reveal" id="duo-gm" aria-label="Quién paga, quién gana y qué podríamos hacer con ese dinero"></section>
+
+    <section class="reveal">
+      <div class="stat-row">
+        <div>
+          <div class="stat-big"><span data-animate-to="23041">0</span><span class="stat-unit">M€</span></div>
+          <p class="stat-period">Créditos liquidados del Ministerio de Defensa · ejercicio 2025</p>
+        </div>
+      </div>
+      <div class="ritmo-row" style="margin-top:.5rem">
+        <p style="color:var(--muted);font-weight:600">Gasto de todo el país:</p>
+        <p class="live-counter" id="persec" title="Contador calculado a partir del gasto anual oficial">—</p>
+        <p aria-hidden="true" style="color:var(--line)">|</p>
+        <p style="color:var(--muted);font-weight:600">Tu cuota:</p>
+        <p id="cuota-gm" style="font-weight:700;margin:0">—</p>
+      </div>
+      <small class="counter-note">Ambas cifras salen del mismo dato oficial (liquidación 2025): una es el gasto total del Estado por segundo; la otra, lo que aporta cada contribuyente al año. No son datos en tiempo real.</small>
+    </section>
+
+    <section class="reveal">
+      <div class="chart-wrap">
+        <p class="chart-title">Créditos del Ministerio de Defensa, liquidados o presupuestados (M€)</p>
+        <p class="chart-sub">Fuente: PGE e IGAE. Los huecos corresponden a ejercicios aún no verificados contra la liquidación oficial.</p>
+        <div id="chart-defensa"></div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Lo esencial, en cinco puntos</h2>
+      <ol>
+        <li><strong>El salto es histórico.</strong> Del crédito consolidado de ~11.189 M€ (2022) se pasó a 23.041 M€ liquidados en 2025: más del doble en tres ejercicios. El presupuesto inicial de 2026 (14.058 M€) ya se elevó a unos 23.603 M€ a mitad de año mediante modificaciones.</li>
+        <li><strong>La cifra depende del criterio.</strong> La liquidación contable (23.041 M€) no coincide con el «esfuerzo efectivo» que recogen medios como Público (23.333 M€) ni con el cálculo del Centre Delàs (33.123 M€), que suma partidas fuera del ministerio (pensiones militares, IVA de armamento, etc.). Mostramos ambas referencias etiquetadas.</li>
+        <li><strong>El objetivo es la OTAN.</strong> En la cumbre de La Haya (junio de 2025) los aliados pactaron subir hacia el 5% del PIB (núcleo duro del 3,5%) en 2035. El informe de abril de 2026 confirmó que España superó por primera vez en tres décadas el umbral del 2%.</li>
+        <li><strong>Cada euro adicional sale mayoritariamente por contratos.</strong> Programas de armamento, material y mantenimiento se adjudican a través de la Plataforma de Contratación del Sector Público (PLACSP). El análisis empresa por empresa ya está disponible vía TED: <a href="./../contratos-publicos/">ver quién cobra los contratos</a>.</li>
+        <li><strong>El coste de oportunidad es medible.</strong> Las equivalencias de arriba usan referencias documentadas (precio medio de vivienda y salario medio). No son una propuesta política: son la escala del dinero.</li>
+      </ol>
+    </section>
+
+    <section class="reveal source-box">
+      <strong>Fuentes y metodología</strong>
+      <dl>
+        <dt>Serie histórica:</dt><dd>PGE borradores y liquidaciones IGAE; importada manualmente con nota por año (<a href="../../data/gasto-defensa.json">datos en JSON</a>).</dd>
+        <dt>Liquidación 2025:</dt><dd><a href="https://www.infobae.com/espana/2026/01/02/el-gasto-militar-en-espana-alcanzo-el-144-del-pib-en-2025-la-cifra-mas-alta-desde-2010/" rel="noopener" target="_blank">Infobae sobre la liquidación (23.041 M€, 1,44% del PIB)</a>.</dd>
+        <dt>Criterio efectivo:</dt><dd><a href="https://www.publico.es/politica/espana-supera-23300-millones-euros-gasto-efectivo-defensa-2025.html" rel="noopener" target="_blank">Público (23.333 M€, +46%)</a>.</dd>
+        <dt>Criterio amplio:</dt><dd><a href="https://centredelas.org/publicacions/informe-54-es/" rel="noopener" target="_blank">Centre Delàs d'Estudis per la Pau (33.123 M€)</a> — fuente no gubernamental.</dd>
+        <dt>OTAN 2%:</dt><dd><a href="https://www.rtve.es/noticias/20260414/gasto-militar-espana-supera-2-pib/" rel="noopener" target="_blank">RTVE (abril de 2026)</a>.</dd>
+        <dt>Compromiso 5%:</dt><dd><a href="https://www.europapress.es/internacional/noticia-otan-fija-cumbre-haya-nuevo-objetivo-gasto-defensa-5-pib-2035-20250625115217.html" rel="noopener" target="_blank">Europa Press, cumbre de La Haya</a>.</dd>
+      </dl>
+      <p style="margin-top:.8rem"><a href="../../analisis/quien-se-beneficia-del-aumento-del-gasto-militar/">Leer el análisis completo →</a></p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../../dinero/">Dinero</a></li>
+        <li><a href="../../vida/">Vida</a></li>
+        <li><a href="../../guerra/">Guerra</a></li>
+        <li><a href="../../democracia/">Democracia</a></li>
+        <li><a href="../../verificador/">Verificador</a></li>
+        <li><a href="../../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../../metodologia/">Metodología</a></li>
+        <li><a href="../../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../../assets/js/main.js?v=37f78c9850" type="module"></script>
+<script type="module">
+import { QG } from '../../assets/js/data.js';
+import { renderBarChart } from '../../assets/js/charts.js';
+import { perSecondCounter, SECONDS_PER_YEAR } from '../../assets/js/counters.js';
+import { renderDuo } from '../../assets/js/quien-gana-block.js';
+
+const doc = await QG.loadJSON(QG.dataUrl('gasto-defensa.json'));
+const obs = doc.observaciones.filter(o => o.valor != null && o.periodo !== '2026');
+renderBarChart(document.getElementById('chart-defensa'), {
+  labels: obs.map(o => o.periodo),
+  values: obs.map(o => o.valor),
+  unit: 'M€',
+  title: 'Créditos del Ministerio de Defensa por año'
+});
+const v2025 = doc.observaciones.find(o => o.periodo === '2025');
+if (v2025) {
+  perSecondCounter(document.getElementById('persec'), v2025.valor * 1e6, SECONDS_PER_YEAR);
+  const pob = await QG.loadJSON(QG.dataUrl('poblacion.json')).catch(() => null);
+  if (pob?.observaciones?.length) {
+    const ph = v2025.valor * 1e6 / pob.observaciones.at(-1).valor;
+    let extra = '';
+    try {
+      const ref = await QG.loadJSON(QG.dataUrl('referencias-equivalencias.json'));
+      const sm = ref?.valores?.salario_medio_anual?.valor;
+      if (sm) extra = ` — lo que un asalariado medio ingresa en ${Math.round(ph * 365 / sm)} días de trabajo`;
+    } catch (_) {}
+    document.getElementById('cuota-gm').textContent =
+      `≈ ${new Intl.NumberFormat('es-ES',{maximumFractionDigits:0}).format(ph)} € al año por cada ciudadano${extra}`;
+  }
+  renderDuo(document.getElementById('duo-gm'), {
+    gastoMillones: v2025.valor,
+    etiquetaPaga: 'Créditos liquidados de Defensa · ejercicio 2025 (≈ 1,44 % del PIB)',
+    quienGanaHtml: `<p>Las <strong>empresas privadas adjudicatarias</strong> de contratos de armamento, material y mantenimiento, publicados en la plataforma estatal de contratación.</p>
+      <p style="margin-top:.5rem">El ranking empresa por empresa ya existe: <a href="./../contratos-publicos/">datos reales de TED, actualizados cada día</a>. Un caso ya documentado: <a href="../../guerra/israel/">46 contratos a industrias israelíes por 1.044 M€</a> según Centre Delàs (fuente no gubernamental).</p>`,
+  });
+}
+</script>
+</body>
+</html>

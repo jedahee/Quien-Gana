@@ -1,0 +1,62 @@
+{
+  "id": "gini",
+  "titulo": "Coeficiente de Gini (desigualdad de renta)",
+  "unidad": "puntos",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "vida",
+  "definicion": "Coeficiente de Gini de la renta disponible equivalizada. 0 = igualdad total, 100 = desigualdad máxima.",
+  "metodologia": "Dataset ilc_di12 de Eurostat (Encuesta de Condiciones de Vida del INE). Dato anual con desfase ~2 años.",
+  "fuente": {
+    "nombre": "Eurostat (datos oficiales UE, incluida España)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/ilc_di12/default/table",
+    "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_di12?format=JSON&lang=EN&geo=ES&age=TOTAL&statinfo=GINI_HND&sinceTimePeriod=2015"
+  },
+  "actualizado": "2026-09-22T20:44:51.668Z",
+  "observaciones": [
+    {
+      "periodo": "2015",
+      "valor": 34.6
+    },
+    {
+      "periodo": "2016",
+      "valor": 34.5
+    },
+    {
+      "periodo": "2017",
+      "valor": 34.1
+    },
+    {
+      "periodo": "2018",
+      "valor": 33.2
+    },
+    {
+      "periodo": "2019",
+      "valor": 33
+    },
+    {
+      "periodo": "2020",
+      "valor": 32.1
+    },
+    {
+      "periodo": "2021",
+      "valor": 33
+    },
+    {
+      "periodo": "2022",
+      "valor": 32
+    },
+    {
+      "periodo": "2023",
+      "valor": 31.5
+    },
+    {
+      "periodo": "2024",
+      "valor": 31.2
+    },
+    {
+      "periodo": "2025",
+      "valor": 30.8
+    }
+  ]
+}

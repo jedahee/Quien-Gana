@@ -1,0 +1,70 @@
+{
+  "id": "grandes-deudores",
+  "titulo": "Grandes deudores con la Hacienda Pública (AEAT, art. 95 bis LGT)",
+  "unidad": "M€ / recuentos",
+  "mock": false,
+  "importacion": "semiautomatica",
+  "categoria": "dinero",
+  "definicion": "Personas físicas y jurídicas con deudas o sanciones tributarias firmes superiores a 600.000 € pendientes de ingreso a 31 de diciembre del ejercicio, publicadas anualmente por la AEAT.",
+  "metodologia": "La AEAT publica el listado una vez al año (finales de junio) como PDF escaneado sin texto extraíble (verificado técnicamente: 119 páginas = 119 imágenes). Las cifras agregadas se transcriben manualmente de la publicación oficial y prensa contrastada; un detector automático en update-data.sh comprueba cada día si hay edición nueva y avisa. Quedan excluidos por ley los deudos aplazados, suspendidos o pendientes de resolución.",
+  "fuente": {
+    "nombre": "AEAT — Listado de deudores a la Hacienda Pública",
+    "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/junio/30/publicacion-listado-deudores-hacienda-publica.html",
+    "pdfUrl": "https://sede.agenciatributaria.gob.es/static_files/Sede/NoIx/Listado_deudores.pdf"
+  },
+  "edicion": {
+    "numero": 13,
+    "situacionA": "2025-12-31",
+    "publicada": "2026-06-30"
+  },
+  "detector": {
+    "ultimoTamanoBytes": 12229997,
+    "cambioDetectado": false,
+    "ultimaComprobacion": "2026-09-22T20:45:13.783Z"
+  },
+  "actualizado": "2026-08-25",
+  "observaciones": [
+    {
+      "periodo": "2025",
+      "categoria": "deudores_total",
+      "valor": 5853,
+      "nota": "13ª edición, publicada 30-06-2026 (-2,4% interanual)."
+    },
+    {
+      "periodo": "2025",
+      "categoria": "deuda_total_millones_eur",
+      "valor": 15432,
+      "nota": "Suma PF+PJ según publicación oficial."
+    },
+    {
+      "periodo": "2025",
+      "categoria": "deudores_personas_fisicas",
+      "valor": 1111
+    },
+    {
+      "periodo": "2025",
+      "categoria": "deuda_personas_fisicas_millones_eur",
+      "valor": 1680
+    },
+    {
+      "periodo": "2025",
+      "categoria": "deudores_personas_juridicas",
+      "valor": 4742
+    },
+    {
+      "periodo": "2025",
+      "categoria": "deuda_personas_juridicas_millones_eur",
+      "valor": 13752
+    },
+    {
+      "periodo": "2025",
+      "categoria": "entradas_edicion_actual",
+      "valor": 735
+    },
+    {
+      "periodo": "2025",
+      "categoria": "salidas_edicion_actual",
+      "valor": 879
+    }
+  ]
+}

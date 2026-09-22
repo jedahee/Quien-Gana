@@ -1,0 +1,36 @@
+{
+  "id": "ucrania-ayudas",
+  "titulo": "Ayuda de España a Ucrania",
+  "unidad": "M€",
+  "mock": false,
+  "importacion": "manual",
+  "categoria": "guerra",
+  "definicion": "Paquetes anunciados/ejecutados de ayuda militar bilateral. NO incluye las aportaciones españolas a instrumentos europeos (Fondo Europeo para la Paz, SAFE, etc.), que se contabilizan aparte.",
+  "metodologia": "Cada cifra procede de comunicaciones oficiales del Gobierno (respuestas parlamentarias, comparecencias del presidente) recogidas por agencias. No se suman paquetes anunciados con ejecutados sin indicarlo: los anuncios pueden ejecutarse en varios ejercicios.",
+  "fuente": {
+    "nombre": "Gobierno de España (respuestas parlamentarias) vía agencias / Secretaría de Estado de Comercio",
+    "url": "https://www.infodefensa.com/texto-diario/mostrar/5220657/espana-destino-1072-millones-ayuda-militar-ucrania-reafirmando-compromiso-defensa"
+  },
+  "referencias": [
+    { "label": "2024: 1.072 M€ ejecutados en apoyo militar (respuesta parlamentaria al PP)", "url": "https://www.infodefensa.com/texto-diario/mostrar/5220657/espana-destino-1072-millones-ayuda-militar-ucrania-reafirmando-compromiso-defensa" },
+    { "label": "2025: 1.000 M€ anunciados (Kiev, feb.) + 815 M€ (nov., visita Zelenski)", "url": "https://es.euronews.com/2026/03/18/espana-anuncia-un-nuevo-paquete-militar-de-1000-millones-de-euros-para-ucrania-en-2026" },
+    { "label": "2026: 1.000 M€ anunciados; ayuda bilateral total 'casi 4.000 M€' desde 2022", "url": "https://www.europapress.es/nacional/noticia-sanchez-anuncia-mil-millones-apoyo-ucrania-impulso-cofabricacion-empresas-ucranianas-defensa-20260318132825.html" },
+    { "label": "~17.000 M€ destinados en total incluyendo instrumentos multilaterales (Sec. Estado Comercio)", "url": "https://es.euronews.com/2026/03/18/espana-anuncia-un-nuevo-paquete-militar-de-1000-millones-de-euros-para-ucrania-en-2026" }
+  ],
+  "actualizado": "2026-09-02",
+  "paquetes": [
+    { "periodo": "2024", "tipo": "ejecutado", "valor": 1072, "detalle": "Apoyo militar bilateral ejecutado durante 2024, según la respuesta oficial del Gobierno al Congreso." },
+    { "periodo": "Feb 2025", "tipo": "anunciado", "valor": 1000, "detalle": "Compromiso anunciado en Kiev por el presidente del Gobierno." },
+    { "periodo": "Nov 2025", "tipo": "anunciado", "valor": 815, "detalle": "Paquete anunciado durante la visita de Zelenski a Madrid." },
+    { "periodo": "Mar 2026", "tipo": "anunciado", "valor": 1000, "detalle": "Nuevo paquete anunciado en marzo de 2026; puede ejecutarse en varios ejercicios." },
+    { "periodo": "Total bilateral declarado", "tipo": "total", "valor": 4000, "detalle": "«Casi 4.000 M€» según el Gobierno (marzo de 2026)." },
+    { "periodo": "Total incl. instrumentos UE", "tipo": "total", "valor": 17000, "detalle": "Aproximado de la Secretaría de Estado de Comercio. Definición distinta: no comparable con el total bilateral." }
+  ],
+  "observaciones": [
+    { "periodo": "2024", "valor": 1072, "nota": "Ejecutado, bilateral militar." },
+    { "periodo": "2025", "valor": 1815, "nota": "Suma de anuncios oficiales (1.000 + 815); pendiente liquidación oficial." },
+    { "periodo": "2026", "valor": 1000, "nota": "Anunciado en marzo de 2026; parcial." },
+    { "periodo": "Total bilateral declarado", "valor": 4000, "nota": "'Casi 4.000 M€' según el Gobierno (marzo 2026)." },
+    { "periodo": "Total incl. instrumentos UE", "valor": 17000, "nota": "Aproximado, Secretaría de Estado de Comercio (marzo 2026). Definición distinta: no comparable con el total bilateral." }
+  ]
+}

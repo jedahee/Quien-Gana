@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inmigración: percepción frente a realidad | ¿Quién Gana?</title>
+<meta name="description" content="Percepción vs realidad sobre inmigración y criminalidad en España: la gente cree que hay muchos más extranjeros de los que hay, y los datos oficiales desmienten los mitos más repetidos. Con fuentes.">
+<link rel="canonical" href="https://jedahee.github.io/Quien-Gana/democracia/extrema-derecha/">
+<meta name="theme-color" content="#c1121f">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#101214">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Quién Gana?">
+<meta property="og:site_name" content="¿Quién Gana? — ¿Y quién acaba pagando?">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Inmigración: percepción frente a realidad | ¿Quién Gana?">
+<meta name="twitter:description" content="Percepción vs realidad sobre inmigración y criminalidad en España: la gente cree que hay muchos más extranjeros de los que hay, y los datos oficiales desmienten los mitos más repetidos. Con fuentes.">
+<meta name="twitter:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<link rel="manifest" href="../../site.webmanifest?v=86ba016d81">
+<meta property="og:image" content="https://jedahee.github.io/Quien-Gana/assets/img/og-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" href="../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="../../assets/img/favicon-64.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="../../assets/css/main.css?v=efdc7b50d0">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Inicio","item":"https://jedahee.github.io/Quien-Gana/"},
+{"@type":"ListItem","position":2,"name":"Democracia","item":"https://jedahee.github.io/Quien-Gana/democracia/"},
+{"@type":"ListItem","position":3,"name":"Inmigración","item":"https://jedahee.github.io/Quien-Gana/democracia/extrema-derecha/"}]}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+<header class="site-header">
+  <nav class="nav-inner" aria-label="Navegación principal">
+    <a class="brand" href="../../"><img src="../../assets/img/logo-header.png" alt="&iquest;Qui&eacute;n Gana?" width="90" height="40"></a>
+    <button id="menu-btn" class="icon-btn" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">☰</button>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="../../">Inicio</a></li>
+      <li><a href="../../dinero/">Dinero</a></li>
+      <li><a href="../../vida/">Vida</a></li>
+      <li><a href="../../guerra/">Guerra</a></li>
+      <li><a href="../../democracia/" aria-current="page">Democracia</a></li>
+    </ul>
+    <button data-open-search class="icon-btn" aria-label="Buscar en la web">🔎<span class="sr-only">Buscar</span></button>
+    <button id="theme-btn" class="icon-btn" aria-pressed="false" aria-label="Cambiar entre tema claro y oscuro">◐<span class="sr-only">Tema</span></button>
+  </nav>
+</header>
+
+<main id="contenido">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Miga de pan">
+      <ol><li><a href="../../">Inicio</a></li><li><a href="../../democracia/">Democracia</a></li><li aria-current="page">Inmigración</li></ol>
+    </nav>
+
+    <section class="page-hero reveal">
+      <p class="kicker">Indicador · 🚨 Inmigración</p>
+      <h1>Cuando la percepción se separa de los datos, alguien gana</h1>
+      <p class="lead">No decimos qué pensar. Comparamos lo que la gente cree con lo que miden las estadísticas oficiales — y señalamos dónde divergen.</p>
+    </section>
+
+    <section class="reveal">
+      <div class="stat-row">
+        <div>
+          <div class="stat-big"><span data-animate-to="21">0</span><span class="stat-unit">%</span><span class="range-sep" aria-hidden="true">–</span><span data-animate-to="34">0</span><span class="stat-unit">%</span></div>
+          <p class="stat-period">Proporción de extranjeros que cree la ciudadanía (CIS / Eurobarómetro)</p>
+        </div>
+        <div>
+          <div class="stat-big"><span id="real-pct">13</span><span class="stat-unit">%</span></div>
+          <p class="stat-period">Proporción real registrada (INE/REIS, 2023) — <span id="poblacion-nota"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tres afirmaciones frecuentes, contrastadas</h2>
+      <div class="claim">
+        <span class="verdict misleading">🟡 ENGAÑOSO · FALTA CONTEXTO</span>
+        <p class="quote">«Los inmigrantes son una parte enorme del país»</p>
+        <h4>Qué dicen los datos</h4>
+        <p>Los extranjeros son alrededor del 13% de la población (REIS 2023), pero las encuestas sitúan la percepción entre el 21% y el 34%. La brecha entre lo sentido y lo registrado es uno de los motores del discurso antiinmigración.</p>
+        <h4>Fuente</h4>
+        <p><a href="https://www.eldiario.es/desalambre/ciudadanos-espanoles-creen-inmigrantes-triplica-realidad_1_12051755.html" rel="noopener" target="_blank">ElDiario.es sobre CIS/Eurobarómetro</a>; REIS/INE.</p>
+      </div>
+
+      <div class="claim">
+        <span class="verdict false">🔴 FALSO (DATOS CONTRASTADOS)</span>
+        <p class="quote">«Los inmigrantes no trabajan, solo viven de ayudas»</p>
+        <h4>Qué dicen los datos</h4>
+        <p>Serie INE 2007–2023 analizada por ElDiario.es: la tasa de empleo de los extranjeros ha sido consistentemente <strong>más alta</strong> que la de los españoles (55,9% frente a 48,2% en los últimos años). El empleo extranjero explica buena parte de la creación neta de empleo.</p>
+        <h4>Fuente</h4>
+        <p><a href="https://www.eldiario.es/desalambre/inmigracion-trabaja-mas-espanoles-serie-historica-ine_1_11674203.html" rel="noopener" target="_blank">ElDiario.es — serie histórica INE 2007–2023</a>.</p>
+      </div>
+
+      <div class="claim">
+        <span class="verdict unknown" id="verdict-crim">🟡 Cruzando series oficiales…</span>
+        <p class="quote">«La inmigración dispara la criminalidad»</p>
+        <h4>El contraste: dos series oficiales, año por año</h4>
+        <p style="max-width:52rem">Si la inmigración sube y la delincuencia baja o se mantiene, la afirmación general es falsa a nivel agregado. Ambas líneas arrancan en el mismo año con valor 100 para que puedas comparar tendencias sin trucos de doble eje.</p>
+        <div id="chart-mito" style="margin:.6rem 0 .4rem"></div>
+        <h4>Cada tipo de delito, primera frente a última observación</h4>
+        <ul id="mito-categorias" style="max-width:52rem"></ul>
+        <div id="verdict-explicacion" style="max-width:52rem;color:var(--muted)"></div>
+        <h4>Límites honestos de este contraste</h4>
+        <p style="max-width:52rem">Son delitos <strong>registrados</strong>, no condenas desglosadas por nacionalidad ni tasas controladas por edad y sexo (series CGPJ aún pendientes de procesar). Los cambios normativos y de denuncia afectan a las series. Y donde los datos contradicen también al mito, lo decimos: las lesiones graves registradas suben en el periodo.</p>
+        <h4>Fuentes</h4>
+        <p><a href="https://ec.europa.eu/eurostat/databrowser/view/crim_off_cat/default/table" rel="noopener" target="_blank">Eurostat crim_off_cat</a> (delitos registrados, datos del Ministerio del Interior) · <a href="https://ec.europa.eu/eurostat/databrowser/view/migr_imm1ctz/default/table" rel="noopener" target="_blank">Eurostat migr_imm1ctz</a> (flujo de inmigración, INE).</p>
+      </div>
+    </section>
+
+    <section class="reveal source-box">
+      <strong>Nota metodológica</strong>
+      <dl>
+        <dt>Población extranjera:</dt><dd>Registro de Extranjeros y padrones (REIS/INE); serie Eurostat migr_pop1ctz para contraste UE.</dd>
+        <dt>Percepción:</dt><dd>Encuestas CIS y Eurobarómetro; las preguntas varían entre olas — se indica siempre cuál se cita.</dd>
+        <dt>Empleo:</dt><dd>EPA/INE por nacionalidad, serie 2007–2023.</dd>
+      </dl>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <p style="font-weight:800;color:var(--ink);margin:0">¿QUIÉN <span style="color:var(--primary)">GANA</span>?</p>
+      <p>Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.</p>
+      <p class="footer-note">Cada dato importante lleva enlace a su fuente original. No tienes que confiar en nosotros: puedes comprobarlo.</p>
+    </div>
+    <nav aria-label="Secciones">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../../dinero/">Dinero</a></li>
+        <li><a href="../../vida/">Vida</a></li>
+        <li><a href="../../guerra/">Guerra</a></li>
+        <li><a href="../../democracia/">Democracia</a></li>
+        <li><a href="../../verificador/">Verificador</a></li>
+        <li><a href="../../analisis/">Análisis</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Transparencia">
+      <h3>Transparencia</h3>
+      <ul>
+        <li><a href="../../metodologia/">Metodología</a></li>
+        <li><a href="../../fuentes/">Fuentes de datos</a></li>
+        <li><a href="../../empresa/">Estado del proyecto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Buscador global">
+  <div id="search-panel" class="search-panel" tabindex="-1">
+    <label for="search-input" class="sr-only">¿Qué afirmación o tema quieres comprobar?</label>
+    <input id="search-input" type="search" placeholder="Prueba con: vivienda, defensa, Israel, Hacienda…" autocomplete="off">
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script src="../../assets/js/main.js?v=37f78c9850" type="module"></script>
+<script type="module">
+import { QG } from '../../assets/js/data.js';
+import { renderIndexedChart } from '../../assets/js/charts.js';
+
+const pob = await QG.loadJSON(QG.dataUrl('poblacion.json')).catch(() => null);
+if (pob) {
+  const last = pob.observaciones.at(-1);
+  document.getElementById('poblacion-nota').textContent = `Población total ${QG.fmt(last.valor)} (${last.periodo})`;
+}
+
+/* Mito «inmigración dispara la criminalidad»: cruce de dos series oficiales */
+const NOMBRES = {
+  ICCS0101: 'Homicidio', ICCS020111: 'Lesiones graves',
+  ICCS0401: 'Robo violento', ICCS0501: 'Robo con fuerza', ICCS0502: 'Hurto',
+};
+const [crim, inmi] = await Promise.all([
+  QG.loadJSON(QG.dataUrl('criminalidad-espana.json')),
+  QG.loadJSON(QG.dataUrl('inmigracion-flujos.json')),
+]).catch(() => [null, null]);
+
+if (crim && inmi) {
+  const pct = (a, b) => ((b - a) / a) * 100;
+  const fmtPct = (v) => `${v > 0 ? '+' : ''}${QG.fmt(v, 0)} %`;
+
+  // Suma de la cesta por año (todas en la misma unidad: x 100.000 hab.)
+  const sumaPorAnio = new Map();
+  for (const o of crim.observaciones) sumaPorAnio.set(o.periodo, (sumaPorAnio.get(o.periodo) ?? 0) + o.valor);
+
+  renderIndexedChart(document.getElementById('chart-mito'), {
+    series: [
+      { name: 'Inmigración bruta anual', color: 'var(--primary)', points: inmi.observaciones.map(o => ({ x: o.periodo, y: o.valor })) },
+      { name: 'Delitos registrados (cesta de 5 tipos, por 100.000 hab.)', color: 'var(--ink)', points: [...sumaPorAnio].map(([x, y]) => ({ x, y })) },
+    ],
+    title: 'Inmigración vs delitos registrados, índice primer año común = 100',
+  });
+
+  // Cambio primera→última por categoría
+  const cats = new Map();
+  for (const o of crim.observaciones) if (!cats.has(o.categoria)) cats.set(o.categoria, []);
+  for (const o of crim.observaciones) cats.get(o.categoria).push(o);
+  const cambios = [...cats.entries()].map(([code, arr]) => ({
+    nombre: NOMBRES[code] ?? code,
+    cambio: pct(arr[0].valor, arr.at(-1).valor),
+    desde: arr[0], hasta: arr.at(-1),
+  })).sort((a, b) => b.cambio - a.cambio);
+
+  document.getElementById('mito-categorias').innerHTML = cambios.map(c => `
+    <li><strong>${c.nombre}</strong>: ${QG.fmt(c.desde.valor, 1)} → ${QG.fmt(c.hasta.valor, 1)}
+    (${c.desde.periodo} → ${c.hasta.periodo}, <strong>${fmtPct(c.cambio)}</strong>${c.cambio <= 10 ? ' — baja o se mantiene' : ''})</li>`).join('');
+
+  const immChange = pct(inmi.observaciones[0].valor, inmi.observaciones.at(-1).valor);
+  const estables = cambios.filter(c => c.cambio < 10).length;
+  const v = document.getElementById('verdict-crim');
+  const ex = document.getElementById('verdict-explicacion');
+  const periodoTxt = `${inmi.observaciones[0].periodo}–${inmi.observaciones.at(-1).periodo}`;
+  if (immChange > 20 && estables >= 4) {
+    v.className = 'verdict false';
+    v.textContent = '🔴 FALSO (DATOS CONTRASTADOS)';
+    ex.innerHTML = `<p>Entre ${periodoTxt} la inmigración bruta se multiplicó (<strong>${fmtPct(immChange)}</strong>) mientras ${estables} de las ${cambios.length} categorías de delito analizadas bajaban o se mantenían. Si la inmigración «disparara» la criminalidad, lo contrario es lo que deberían mostrar estas series oficiales.</p>`;
+  } else if (immChange > 20) {
+    v.className = 'verdict misleading';
+    v.textContent = '🟡 ENGAÑOSO · FALTA CONTEXTO';
+    ex.innerHTML = `<p>Ambas series suben en ${periodoTxt}, pero la correlación agregada no prueba causalidad: población, economía y criterios de registro cambian a la vez.</p>`;
+  } else {
+    v.textContent = '🟡 SERIES INSUFICIENTES PARA VEREDICTO';
+    ex.innerHTML = '<p>No hay datos suficientes solapados para contrastar la afirmación.</p>';
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "id": "poblacion",
+  "titulo": "Población de España a 1 de enero",
+  "unidad": "personas",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "vida",
+  "definicion": "Población total residente en España a 1 de enero de cada año.",
+  "metodologia": "Dataset demo_pjan de Eurostat, alimentado por el INE (Cifras de Población).",
+  "fuente": {
+    "nombre": "Eurostat (datos oficiales UE, incluida España)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/demo_pjan/default/table",
+    "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjan?format=JSON&lang=EN&geo=ES&sex=T&age=TOTAL&sinceTimePeriod=2015"
+  },
+  "actualizado": "2026-09-22T20:44:51.668Z",
+  "observaciones": [
+    {
+      "periodo": "2015",
+      "valor": 46425722
+    },
+    {
+      "periodo": "2016",
+      "valor": 46418884
+    },
+    {
+      "periodo": "2017",
+      "valor": 46497393
+    },
+    {
+      "periodo": "2018",
+      "valor": 46645070
+    },
+    {
+      "periodo": "2019",
+      "valor": 46918951
+    },
+    {
+      "periodo": "2020",
+      "valor": 47318050
+    },
+    {
+      "periodo": "2021",
+      "valor": 47400798
+    },
+    {
+      "periodo": "2022",
+      "valor": 47486843
+    },
+    {
+      "periodo": "2023",
+      "valor": 48085361
+    },
+    {
+      "periodo": "2024",
+      "valor": 48619695
+    },
+    {
+      "periodo": "2025",
+      "valor": 49128297
+    }
+  ]
+}

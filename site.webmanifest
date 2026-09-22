@@ -1,0 +1,27 @@
+{
+  "name": "¿Quién Gana? — ¿Y quién acaba pagando?",
+  "short_name": "¿Quién Gana?",
+  "description": "Datos públicos para entender dónde está el dinero, quién tiene el poder y qué está pasando en España.",
+  "lang": "es",
+  "dir": "ltr",
+  "id": "quiengana",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf9f6",
+  "theme_color": "#c1121f",
+  "categories": ["news", "education", "politics", "government"],
+  "icons": [
+    { "src": "./assets/img/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/img/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Dinero", "short_name": "Dinero", "description": "Presupuesto, gasto militar y contratos públicos", "url": "./dinero/", "icons": [{ "src": "./assets/img/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Vida", "short_name": "Vida", "description": "Vivienda, salarios y coste de vida", "url": "./vida/", "icons": [{ "src": "./assets/img/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Guerra", "short_name": "Guerra", "description": "Rearme, Ucrania, Israel y EE.UU.", "url": "./guerra/", "icons": [{ "src": "./assets/img/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Democracia", "short_name": "Democracia", "description": "Derechos y percepción sobre inmigración", "url": "./democracia/", "icons": [{ "src": "./assets/img/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Verificador", "short_name": "Verificador", "description": "Afirmaciones contrastadas con fuentes", "url": "./verificador/", "icons": [{ "src": "./assets/img/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

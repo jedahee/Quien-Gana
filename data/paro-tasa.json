@@ -1,0 +1,382 @@
+{
+  "id": "paro-tasa",
+  "titulo": "Tasa de paro mensual (ajustada de estacionalidad)",
+  "unidad": "%",
+  "mock": false,
+  "importacion": "automatica",
+  "categoria": "vida",
+  "definicion": "Porcentaje de activos en paro, ajustado de estacionalidad, ambos sexos.",
+  "metodologia": "Dataset une_rt_m de Eurostat (Encuesta de Población Activa del INE).",
+  "fuente": {
+    "nombre": "Eurostat (datos oficiales UE, incluida España)",
+    "url": "https://ec.europa.eu/eurostat/databrowser/view/une_rt_m/default/table",
+    "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_m?format=JSON&lang=EN&geo=ES&s_adj=SA&sex=T&age=TOTAL&unit=PC_ACT&sinceTimePeriod=2019"
+  },
+  "actualizado": "2026-09-22T20:44:51.668Z",
+  "observaciones": [
+    {
+      "periodo": "2019-01",
+      "valor": 14.3
+    },
+    {
+      "periodo": "2019-02",
+      "valor": 14.2
+    },
+    {
+      "periodo": "2019-03",
+      "valor": 14.2
+    },
+    {
+      "periodo": "2019-04",
+      "valor": 14.2
+    },
+    {
+      "periodo": "2019-05",
+      "valor": 14.3
+    },
+    {
+      "periodo": "2019-06",
+      "valor": 14.2
+    },
+    {
+      "periodo": "2019-07",
+      "valor": 14.2
+    },
+    {
+      "periodo": "2019-08",
+      "valor": 14.1
+    },
+    {
+      "periodo": "2019-09",
+      "valor": 14
+    },
+    {
+      "periodo": "2019-10",
+      "valor": 14
+    },
+    {
+      "periodo": "2019-11",
+      "valor": 13.9
+    },
+    {
+      "periodo": "2019-12",
+      "valor": 13.8
+    },
+    {
+      "periodo": "2020-01",
+      "valor": 13.8
+    },
+    {
+      "periodo": "2020-02",
+      "valor": 13.6
+    },
+    {
+      "periodo": "2020-03",
+      "valor": 14.5
+    },
+    {
+      "periodo": "2020-04",
+      "valor": 15.3
+    },
+    {
+      "periodo": "2020-05",
+      "valor": 15.5
+    },
+    {
+      "periodo": "2020-06",
+      "valor": 16
+    },
+    {
+      "periodo": "2020-07",
+      "valor": 16.2
+    },
+    {
+      "periodo": "2020-08",
+      "valor": 16.5
+    },
+    {
+      "periodo": "2020-09",
+      "valor": 16.4
+    },
+    {
+      "periodo": "2020-10",
+      "valor": 16.3
+    },
+    {
+      "periodo": "2020-11",
+      "valor": 16.2
+    },
+    {
+      "periodo": "2020-12",
+      "valor": 16.2
+    },
+    {
+      "periodo": "2021-01",
+      "valor": 15.9
+    },
+    {
+      "periodo": "2021-02",
+      "valor": 15.7
+    },
+    {
+      "periodo": "2021-03",
+      "valor": 15.5
+    },
+    {
+      "periodo": "2021-04",
+      "valor": 15.7
+    },
+    {
+      "periodo": "2021-05",
+      "valor": 15.7
+    },
+    {
+      "periodo": "2021-06",
+      "valor": 15.6
+    },
+    {
+      "periodo": "2021-07",
+      "valor": 15.2
+    },
+    {
+      "periodo": "2021-08",
+      "valor": 14.8
+    },
+    {
+      "periodo": "2021-09",
+      "valor": 14.4
+    },
+    {
+      "periodo": "2021-10",
+      "valor": 13.9
+    },
+    {
+      "periodo": "2021-11",
+      "valor": 13.5
+    },
+    {
+      "periodo": "2021-12",
+      "valor": 13.3
+    },
+    {
+      "periodo": "2022-01",
+      "valor": 13.3
+    },
+    {
+      "periodo": "2022-02",
+      "valor": 13.2
+    },
+    {
+      "periodo": "2022-03",
+      "valor": 13.3
+    },
+    {
+      "periodo": "2022-04",
+      "valor": 13.2
+    },
+    {
+      "periodo": "2022-05",
+      "valor": 12.9
+    },
+    {
+      "periodo": "2022-06",
+      "valor": 12.9
+    },
+    {
+      "periodo": "2022-07",
+      "valor": 12.7
+    },
+    {
+      "periodo": "2022-08",
+      "valor": 12.8
+    },
+    {
+      "periodo": "2022-09",
+      "valor": 13
+    },
+    {
+      "periodo": "2022-10",
+      "valor": 13.1
+    },
+    {
+      "periodo": "2022-11",
+      "valor": 13.2
+    },
+    {
+      "periodo": "2022-12",
+      "valor": 13.2
+    },
+    {
+      "periodo": "2023-01",
+      "valor": 13.1
+    },
+    {
+      "periodo": "2023-02",
+      "valor": 12.9
+    },
+    {
+      "periodo": "2023-03",
+      "valor": 12.5
+    },
+    {
+      "periodo": "2023-04",
+      "valor": 12.1
+    },
+    {
+      "periodo": "2023-05",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-06",
+      "valor": 11.9
+    },
+    {
+      "periodo": "2023-07",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-08",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-09",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-10",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-11",
+      "valor": 12
+    },
+    {
+      "periodo": "2023-12",
+      "valor": 11.9
+    },
+    {
+      "periodo": "2024-01",
+      "valor": 11.9
+    },
+    {
+      "periodo": "2024-02",
+      "valor": 11.8
+    },
+    {
+      "periodo": "2024-03",
+      "valor": 11.6
+    },
+    {
+      "periodo": "2024-04",
+      "valor": 11.6
+    },
+    {
+      "periodo": "2024-05",
+      "valor": 11.6
+    },
+    {
+      "periodo": "2024-06",
+      "valor": 11.5
+    },
+    {
+      "periodo": "2024-07",
+      "valor": 11.4
+    },
+    {
+      "periodo": "2024-08",
+      "valor": 11.3
+    },
+    {
+      "periodo": "2024-09",
+      "valor": 11.1
+    },
+    {
+      "periodo": "2024-10",
+      "valor": 10.9
+    },
+    {
+      "periodo": "2024-11",
+      "valor": 10.8
+    },
+    {
+      "periodo": "2024-12",
+      "valor": 10.8
+    },
+    {
+      "periodo": "2025-01",
+      "valor": 10.8
+    },
+    {
+      "periodo": "2025-02",
+      "valor": 10.8
+    },
+    {
+      "periodo": "2025-03",
+      "valor": 10.8
+    },
+    {
+      "periodo": "2025-04",
+      "valor": 10.6
+    },
+    {
+      "periodo": "2025-05",
+      "valor": 10.6
+    },
+    {
+      "periodo": "2025-06",
+      "valor": 10.5
+    },
+    {
+      "periodo": "2025-07",
+      "valor": 10.6
+    },
+    {
+      "periodo": "2025-08",
+      "valor": 10.5
+    },
+    {
+      "periodo": "2025-09",
+      "valor": 10.4
+    },
+    {
+      "periodo": "2025-10",
+      "valor": 10.2
+    },
+    {
+      "periodo": "2025-11",
+      "valor": 10.1
+    },
+    {
+      "periodo": "2025-12",
+      "valor": 10.2
+    },
+    {
+      "periodo": "2026-01",
+      "valor": 10.3
+    },
+    {
+      "periodo": "2026-02",
+      "valor": 10.3
+    },
+    {
+      "periodo": "2026-03",
+      "valor": 10.3
+    },
+    {
+      "periodo": "2026-04",
+      "valor": 10.2
+    },
+    {
+      "periodo": "2026-05",
+      "valor": 10.2
+    },
+    {
+      "periodo": "2026-06",
+      "valor": 10.1
+    },
+    {
+      "periodo": "2026-07",
+      "valor": 10
+    }
+  ]
+}
